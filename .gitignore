@@ -1,0 +1,58 @@
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Uncomment if you have any specific Android or iOS build folders
+# [Aa]ssets/Plugins/Android/
+# [Aa]ssets/Plugins/iOS/
+
+# Unity cache files
+*.unitypackage
+*.pidb
+*.booproj
+*.svd
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# Visual Studio
+.vscode/
+*.csproj
+*.sln
+*.user
+*.unityproj
+
+# Crash reports
+sysinfo.txt
+
+# Builds and deployment
+*.apk
+*.aab
+*.xcodeproj
+*.xcworkspace
+
+# Auto-generated files
+ExportedObj/
+.consulo/
+*.bak
+*.orig
+*.swp
+*.tmp
+
+# Hidden by Unity or used internally
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta

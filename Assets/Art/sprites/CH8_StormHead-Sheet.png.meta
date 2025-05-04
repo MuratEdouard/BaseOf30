@@ -1,0 +1,3555 @@
+fileFormatVersion: 2
+guid: 3f5b9163c4d801c4fa9c59ae7839e898
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2879729239883273872
+    second: CH8_StormHead-Sheet_0
+  - first:
+      213: 4555374206284729892
+    second: CH8_StormHead-Sheet_1
+  - first:
+      213: -1607985483859376624
+    second: CH8_StormHead-Sheet_2
+  - first:
+      213: -847477711726996500
+    second: CH8_StormHead-Sheet_3
+  - first:
+      213: -6807960657473397006
+    second: CH8_StormHead-Sheet_4
+  - first:
+      213: 8036717667626689534
+    second: CH8_StormHead-Sheet_5
+  - first:
+      213: 3002558139621620663
+    second: CH8_StormHead-Sheet_6
+  - first:
+      213: 5364115787877570042
+    second: CH8_StormHead-Sheet_7
+  - first:
+      213: -1100671185568901095
+    second: CH8_StormHead-Sheet_8
+  - first:
+      213: -4829438782069306788
+    second: CH8_StormHead-Sheet_9
+  - first:
+      213: 2158606914618625677
+    second: CH8_StormHead-Sheet_10
+  - first:
+      213: 9057637576576147135
+    second: CH8_StormHead-Sheet_11
+  - first:
+      213: -6325891773250782972
+    second: CH8_StormHead-Sheet_12
+  - first:
+      213: 774998610757852154
+    second: CH8_StormHead-Sheet_13
+  - first:
+      213: -3628216506112389832
+    second: CH8_StormHead-Sheet_14
+  - first:
+      213: 6509486621124999526
+    second: CH8_StormHead-Sheet_15
+  - first:
+      213: 6137395131810656092
+    second: CH8_StormHead-Sheet_16
+  - first:
+      213: -1045657710150212481
+    second: CH8_StormHead-Sheet_17
+  - first:
+      213: 9073111813752665896
+    second: CH8_StormHead-Sheet_18
+  - first:
+      213: -2364855819928544935
+    second: CH8_StormHead-Sheet_19
+  - first:
+      213: 1019989112485978599
+    second: CH8_StormHead-Sheet_20
+  - first:
+      213: 7337291784832684721
+    second: CH8_StormHead-Sheet_21
+  - first:
+      213: -7697209899616298261
+    second: CH8_StormHead-Sheet_22
+  - first:
+      213: -1473260881619051308
+    second: CH8_StormHead-Sheet_23
+  - first:
+      213: 1799981996207648642
+    second: CH8_StormHead-Sheet_24
+  - first:
+      213: 4171386989321538029
+    second: CH8_StormHead-Sheet_25
+  - first:
+      213: 3940446578412163754
+    second: CH8_StormHead-Sheet_26
+  - first:
+      213: 8732005057169498990
+    second: CH8_StormHead-Sheet_27
+  - first:
+      213: -1537781043559761335
+    second: CH8_StormHead-Sheet_28
+  - first:
+      213: -4827868348698738248
+    second: CH8_StormHead-Sheet_29
+  - first:
+      213: -7429881876223282515
+    second: CH8_StormHead-Sheet_30
+  - first:
+      213: -3492483808429525187
+    second: CH8_StormHead-Sheet_31
+  - first:
+      213: -8451501137657144289
+    second: CH8_StormHead-Sheet_32
+  - first:
+      213: -6490933182739782502
+    second: CH8_StormHead-Sheet_33
+  - first:
+      213: -7691406682708509121
+    second: CH8_StormHead-Sheet_34
+  - first:
+      213: -6341118773749343567
+    second: CH8_StormHead-Sheet_35
+  - first:
+      213: -474230806200876290
+    second: CH8_StormHead-Sheet_36
+  - first:
+      213: 97598272212399289
+    second: CH8_StormHead-Sheet_37
+  - first:
+      213: 7183836506349212650
+    second: CH8_StormHead-Sheet_38
+  - first:
+      213: 6349832933245081179
+    second: CH8_StormHead-Sheet_39
+  - first:
+      213: 5991909848094036041
+    second: CH8_StormHead-Sheet_40
+  - first:
+      213: -1735786930452507612
+    second: CH8_StormHead-Sheet_41
+  - first:
+      213: -4637431509167799836
+    second: CH8_StormHead-Sheet_42
+  - first:
+      213: 249558224512846922
+    second: CH8_StormHead-Sheet_43
+  - first:
+      213: -4919608851556270348
+    second: CH8_StormHead-Sheet_44
+  - first:
+      213: -7603860634595453167
+    second: CH8_StormHead-Sheet_45
+  - first:
+      213: 3432342499436124676
+    second: CH8_StormHead-Sheet_46
+  - first:
+      213: -5197910472465478273
+    second: CH8_StormHead-Sheet_47
+  - first:
+      213: -3725965377681383528
+    second: CH8_StormHead-Sheet_48
+  - first:
+      213: -8464540229228680320
+    second: CH8_StormHead-Sheet_49
+  - first:
+      213: -2979538924756285710
+    second: CH8_StormHead-Sheet_50
+  - first:
+      213: -757681779230639735
+    second: CH8_StormHead-Sheet_51
+  - first:
+      213: 5375812619610166608
+    second: CH8_StormHead-Sheet_52
+  - first:
+      213: -1514644059295370627
+    second: CH8_StormHead-Sheet_53
+  - first:
+      213: -8615088626943734127
+    second: CH8_StormHead-Sheet_54
+  - first:
+      213: 4955547666221993995
+    second: CH8_StormHead-Sheet_55
+  - first:
+      213: 2298863899059123296
+    second: CH8_StormHead-Sheet_56
+  - first:
+      213: -6123403018700426905
+    second: CH8_StormHead-Sheet_57
+  - first:
+      213: -5070136564858299711
+    second: CH8_StormHead-Sheet_58
+  - first:
+      213: 2539338187484934207
+    second: CH8_StormHead-Sheet_59
+  - first:
+      213: -2138545990527450041
+    second: CH8_StormHead-Sheet_60
+  - first:
+      213: 1507615492179855061
+    second: CH8_StormHead-Sheet_61
+  - first:
+      213: -4124347680280842862
+    second: CH8_StormHead-Sheet_62
+  - first:
+      213: -3482764286247954684
+    second: CH8_StormHead-Sheet_63
+  - first:
+      213: -8030581891252258195
+    second: CH8_StormHead-Sheet_64
+  - first:
+      213: 7755563191265801742
+    second: CH8_StormHead-Sheet_65
+  - first:
+      213: 8506363369159806259
+    second: CH8_StormHead-Sheet_66
+  - first:
+      213: 8127009559698203015
+    second: CH8_StormHead-Sheet_67
+  - first:
+      213: -7926952646146843994
+    second: CH8_StormHead-Sheet_68
+  - first:
+      213: -4467583206938925954
+    second: CH8_StormHead-Sheet_69
+  - first:
+      213: -3224176369708865908
+    second: CH8_StormHead-Sheet_70
+  - first:
+      213: 9016609663089254391
+    second: CH8_StormHead-Sheet_71
+  - first:
+      213: -6402569651150466393
+    second: CH8_StormHead-Sheet_72
+  - first:
+      213: -5894487535022258343
+    second: CH8_StormHead-Sheet_73
+  - first:
+      213: -5019323738589768535
+    second: CH8_StormHead-Sheet_74
+  - first:
+      213: 1544411198998645389
+    second: CH8_StormHead-Sheet_75
+  - first:
+      213: 4665005973499191885
+    second: CH8_StormHead-Sheet_76
+  - first:
+      213: -2838465855967502524
+    second: CH8_StormHead-Sheet_77
+  - first:
+      213: -1898535671275875847
+    second: CH8_StormHead-Sheet_78
+  - first:
+      213: -5293214987195426210
+    second: CH8_StormHead-Sheet_79
+  - first:
+      213: 5229707635555298127
+    second: CH8_StormHead-Sheet_80
+  - first:
+      213: 1167375769009738448
+    second: CH8_StormHead-Sheet_81
+  - first:
+      213: -1103791380966990157
+    second: CH8_StormHead-Sheet_82
+  - first:
+      213: 5967565443589603248
+    second: CH8_StormHead-Sheet_83
+  - first:
+      213: -1180028002973171907
+    second: CH8_StormHead-Sheet_84
+  - first:
+      213: 4325585245107060400
+    second: CH8_StormHead-Sheet_85
+  - first:
+      213: -5894615491970028506
+    second: CH8_StormHead-Sheet_86
+  - first:
+      213: 9087644996357199103
+    second: CH8_StormHead-Sheet_87
+  - first:
+      213: -9220693470454476872
+    second: CH8_StormHead-Sheet_88
+  - first:
+      213: -4915102963639795742
+    second: CH8_StormHead-Sheet_89
+  - first:
+      213: 7917588341145827941
+    second: CH8_StormHead-Sheet_90
+  - first:
+      213: -262524656613461885
+    second: CH8_StormHead-Sheet_91
+  - first:
+      213: -409494171703669520
+    second: CH8_StormHead-Sheet_92
+  - first:
+      213: 3958269252131710222
+    second: CH8_StormHead-Sheet_93
+  - first:
+      213: -1097771742386090919
+    second: CH8_StormHead-Sheet_94
+  - first:
+      213: -7217977994772321244
+    second: CH8_StormHead-Sheet_95
+  - first:
+      213: 625852687466594918
+    second: CH8_StormHead-Sheet_96
+  - first:
+      213: 788948225962078818
+    second: CH8_StormHead-Sheet_97
+  - first:
+      213: 9030131413649499881
+    second: CH8_StormHead-Sheet_98
+  - first:
+      213: -2811192814133423336
+    second: CH8_StormHead-Sheet_99
+  - first:
+      213: -4288366139188951755
+    second: CH8_StormHead-Sheet_100
+  - first:
+      213: -8532815245902315402
+    second: CH8_StormHead-Sheet_101
+  - first:
+      213: -3616566336846980049
+    second: CH8_StormHead-Sheet_102
+  - first:
+      213: -1106474483309265761
+    second: CH8_StormHead-Sheet_103
+  - first:
+      213: -2753076162568238099
+    second: CH8_StormHead-Sheet_104
+  - first:
+      213: 3455688870870895934
+    second: CH8_StormHead-Sheet_105
+  - first:
+      213: -9213120755467817740
+    second: CH8_StormHead-Sheet_106
+  - first:
+      213: -3160163564270964983
+    second: CH8_StormHead-Sheet_107
+  - first:
+      213: -4254787992022934699
+    second: CH8_StormHead-Sheet_108
+  - first:
+      213: 7523867106720491913
+    second: CH8_StormHead-Sheet_109
+  - first:
+      213: -5198980127165050603
+    second: CH8_StormHead-Sheet_110
+  - first:
+      213: 5686947211157002996
+    second: CH8_StormHead-Sheet_111
+  - first:
+      213: -8518965193382280939
+    second: CH8_StormHead-Sheet_112
+  - first:
+      213: -1502682735523364328
+    second: CH8_StormHead-Sheet_113
+  - first:
+      213: 5158182097674620828
+    second: CH8_StormHead-Sheet_114
+  - first:
+      213: -647991214523837235
+    second: CH8_StormHead-Sheet_115
+  - first:
+      213: -33081624121605638
+    second: CH8_StormHead-Sheet_116
+  - first:
+      213: -2539971075434548953
+    second: CH8_StormHead-Sheet_117
+  - first:
+      213: -49079877673075514
+    second: CH8_StormHead-Sheet_118
+  - first:
+      213: -7013991126171910763
+    second: CH8_StormHead-Sheet_119
+  - first:
+      213: -4531357937313615473
+    second: CH8_StormHead-Sheet_120
+  - first:
+      213: -5506933589063618016
+    second: CH8_StormHead-Sheet_121
+  - first:
+      213: -1689370338760989468
+    second: CH8_StormHead-Sheet_122
+  - first:
+      213: -6864178523529880407
+    second: CH8_StormHead-Sheet_123
+  - first:
+      213: 4525279061530019606
+    second: CH8_StormHead-Sheet_124
+  - first:
+      213: 2488270253132544065
+    second: CH8_StormHead-Sheet_125
+  - first:
+      213: -7144061845659693885
+    second: CH8_StormHead-Sheet_126
+  - first:
+      213: 1257991602979501707
+    second: CH8_StormHead-Sheet_127
+  - first:
+      213: 1445670287386620377
+    second: CH8_StormHead-Sheet_128
+  - first:
+      213: -7528691777238961533
+    second: CH8_StormHead-Sheet_129
+  - first:
+      213: -3319383853651086880
+    second: CH8_StormHead-Sheet_130
+  - first:
+      213: -3673596909218193550
+    second: CH8_StormHead-Sheet_131
+  - first:
+      213: -5937457065888475646
+    second: CH8_StormHead-Sheet_132
+  - first:
+      213: 3643762575617023011
+    second: CH8_StormHead-Sheet_133
+  - first:
+      213: 3607672226322323963
+    second: CH8_StormHead-Sheet_134
+  - first:
+      213: -2178316949242571170
+    second: CH8_StormHead-Sheet_135
+  - first:
+      213: 362058700039062445
+    second: CH8_StormHead-Sheet_136
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 824
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 079a37783852908d0800000000000000
+      internalID: -2879729239883273872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 824
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e049884b0f73f30800000000000000
+      internalID: 4555374206284729892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 850
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 016c39ec8b94fa9e0800000000000000
+      internalID: -1607985483859376624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 824
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce39375e2872d34f0800000000000000
+      internalID: -847477711726996500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 824
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fe96762ad34581a0800000000000000
+      internalID: -6807960657473397006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 850
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef3aefa6328288f60800000000000000
+      internalID: 8036717667626689534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 824
+        width: 24
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bbba9148ba3ba920800000000000000
+      internalID: 3002558139621620663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 824
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af5d18683ea217a40800000000000000
+      internalID: 5364115787877570042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 824
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91858a96361a9b0f0800000000000000
+      internalID: -1100671185568901095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 824
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5a8342e3036afcb0800000000000000
+      internalID: -4829438782069306788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 824
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e8b835d89e4fd10800000000000000
+      internalID: 2158606914618625677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 632
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbe1d00f26133bd70800000000000000
+      internalID: 9057637576576147135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 632
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40932dfb2fae538a0800000000000000
+      internalID: -6325891773250782972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 657
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afb94af512951ca00800000000000000
+      internalID: 774998610757852154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 632
+        width: 22
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83d46f09f4cf5adc0800000000000000
+      internalID: -3628216506112389832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 632
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 669305ad797565a50800000000000000
+      internalID: 6509486621124999526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 632
+        width: 24
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5f29c5ea586c2550800000000000000
+      internalID: 6137395131810656092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 632
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7429dd4ad31d71f0800000000000000
+      internalID: -1045657710150212481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 632
+        width: 22
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 827b02a8f1b2aed70800000000000000
+      internalID: 9073111813752665896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 632
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 959d42c49285e2fd0800000000000000
+      internalID: -2364855819928544935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 658
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e12e7491bab72e00800000000000000
+      internalID: 1019989112485978599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 632
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b21850f00c43d560800000000000000
+      internalID: 7337291784832684721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 632
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bea10cbb0640e2590800000000000000
+      internalID: -7697209899616298261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 440
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dc1e99a80ded8be0800000000000000
+      internalID: -1473260881619051308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 440
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28f2e0eb612daf810800000000000000
+      internalID: 1799981996207648642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 440
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de94237ad5eb3e930800000000000000
+      internalID: 4171386989321538029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 471
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa219a229474fa630800000000000000
+      internalID: 3940446578412163754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 440
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e63a089d5505e2970800000000000000
+      internalID: 8732005057169498990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 491
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94a7a44d944b8aae0800000000000000
+      internalID: -1537781043559761335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 488
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b1c575e057fffcb0800000000000000
+      internalID: -4827868348698738248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 440
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da2399c7cc1c3e890800000000000000
+      internalID: -7429881876223282515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 486
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3731ceea74388fc0800000000000000
+      internalID: -3492483808429525187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 440
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1cd2274e7c36ba80800000000000000
+      internalID: -8451501137657144289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 486
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a94eff529a29be5a0800000000000000
+      internalID: -6490933182739782502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 440
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3ef7167f52a24590800000000000000
+      internalID: -7691406682708509121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 440
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba1c1c6212dff7a0800000000000000
+      internalID: -6341118773749343567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 440
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef289d628913b69f0800000000000000
+      internalID: -474230806200876290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 494
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b479e98c1dba5100800000000000000
+      internalID: 97598272212399289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 440
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae39d6dad3d12b360800000000000000
+      internalID: 7183836506349212650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 486
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b565621f8632f1850800000000000000
+      internalID: 6349832933245081179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 457
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9405fc5a24a872350800000000000000
+      internalID: 5991909848094036041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 459
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 424dc9cbbfe39e7e0800000000000000
+      internalID: -1735786930452507612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 443
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e189d1dc9884afb0800000000000000
+      internalID: -4637431509167799836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 440
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4c8dda02eb967300800000000000000
+      internalID: 249558224512846922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 486
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fefe1190d90abbb0800000000000000
+      internalID: -4919608851556270348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 2005
+        y: 440
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1179c513a09a97690800000000000000
+      internalID: -7603860634595453167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 496
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40add52615122af20800000000000000
+      internalID: 3432342499436124676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 2031
+        y: 486
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7d896a07ff4dd7b0800000000000000
+      internalID: -5197910472465478273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 2041
+        y: 486
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89f95e1ea36ba4cc0800000000000000
+      internalID: -3725965377681383528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 2047
+        y: 462
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b22d13289e78a80800000000000000
+      internalID: -8464540229228680320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 442
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f6c37b522d86a6d0800000000000000
+      internalID: -2979538924756285710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 2161
+        y: 440
+        width: 56
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 989fb28af6c2c75f0800000000000000
+      internalID: -757681779230639735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 2197
+        y: 440
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0551de26819ba9a40800000000000000
+      internalID: 5375812619610166608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 2214
+        y: 501
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d723b84c047eafae0800000000000000
+      internalID: -1514644059295370627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 2217
+        y: 483
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19ec28ad98e017880800000000000000
+      internalID: -8615088626943734127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 2231
+        y: 488
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b009da8c854a5c440800000000000000
+      internalID: 4955547666221993995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 471
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 064736a498437ef10800000000000000
+      internalID: 2298863899059123296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 451
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7617ecdc56d450ba0800000000000000
+      internalID: -6123403018700426905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 2357
+        y: 461
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cad6e038a143a9b0800000000000000
+      internalID: -5070136564858299711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 2389
+        y: 440
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f30bf95a0aa8d3320800000000000000
+      internalID: 2539338187484934207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 2394
+        y: 493
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74486ca80cb5252e0800000000000000
+      internalID: -2138545990527450041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 501
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d6814d6d402ce410800000000000000
+      internalID: 1507615492179855061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 2416
+        y: 481
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29d67a2f2af53c6c0800000000000000
+      internalID: -4124347680280842862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 2423
+        y: 488
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40716c9855cbaafc0800000000000000
+      internalID: -3482764286247954684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 2431
+        y: 453
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6a79385154ad8090800000000000000
+      internalID: -8030581891252258195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 2545
+        y: 440
+        width: 56
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e063e78b1ab41ab60800000000000000
+      internalID: 7755563191265801742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 2581
+        y: 440
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33d4a256a6cac0670800000000000000
+      internalID: 8506363369159806259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 2598
+        y: 453
+        width: 51
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 781e304c220f8c070800000000000000
+      internalID: 8127009559698203015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 2737
+        y: 447
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aa131f219ecdf190800000000000000
+      internalID: -7926952646146843994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 2742
+        y: 481
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e74a7e95eb4fff1c0800000000000000
+      internalID: -4467583206938925954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 2742
+        y: 466
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c866b469cac6143d0800000000000000
+      internalID: -3224176369708865908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 2745
+        y: 452
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ff1ace67be612d70800000000000000
+      internalID: 9016609663089254391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 2755
+        y: 476
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a2da7513d08527a0800000000000000
+      internalID: -6402569651150466393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 2767
+        y: 495
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 957c70631d2923ea0800000000000000
+      internalID: -5894487535022258343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 2768
+        y: 480
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a4dbac37a7c75ab0800000000000000
+      internalID: -5019323738589768535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 2773
+        y: 440
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8a03778dc9de6510800000000000000
+      internalID: 1544411198998645389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 2777
+        y: 494
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d42ae75773e6db040800000000000000
+      internalID: 4665005973499191885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 2790
+        y: 453
+        width: 51
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44f5bf3c75ebb98d0800000000000000
+      internalID: -2838465855967502524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 2926
+        y: 451
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f19138addb07a5e0800000000000000
+      internalID: -1898535671275875847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 2931
+        y: 481
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5a51788309ba86b0800000000000000
+      internalID: -5293214987195426210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_80
+      rect:
+        serializedVersion: 2
+        x: 2932
+        y: 461
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4beb68e267a39840800000000000000
+      internalID: 5229707635555298127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_81
+      rect:
+        serializedVersion: 2
+        x: 2939
+        y: 450
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d2593fa31a533010800000000000000
+      internalID: 1167375769009738448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_82
+      rect:
+        serializedVersion: 2
+        x: 2942
+        y: 482
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be135f469b8ea0f0800000000000000
+      internalID: -1103791380966990157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_83
+      rect:
+        serializedVersion: 2
+        x: 2948
+        y: 473
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bffd07472d01d250800000000000000
+      internalID: 5967565443589603248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_84
+      rect:
+        serializedVersion: 2
+        x: 2953
+        y: 491
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3f35c988c2bf9fe0800000000000000
+      internalID: -1180028002973171907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_85
+      rect:
+        serializedVersion: 2
+        x: 2957
+        y: 494
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bef64cccd0970c30800000000000000
+      internalID: 4325585245107060400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_86
+      rect:
+        serializedVersion: 2
+        x: 2957
+        y: 479
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62cac99e07e123ea0800000000000000
+      internalID: -5894615491970028506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_87
+      rect:
+        serializedVersion: 2
+        x: 2965
+        y: 494
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff41abcc9fccd1e70800000000000000
+      internalID: 9087644996357199103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_88
+      rect:
+        serializedVersion: 2
+        x: 2965
+        y: 440
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bf0cc65424890080800000000000000
+      internalID: -9220693470454476872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_89
+      rect:
+        serializedVersion: 2
+        x: 2982
+        y: 453
+        width: 51
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2efb7c955eb0acbb0800000000000000
+      internalID: -4915102963639795742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_90
+      rect:
+        serializedVersion: 2
+        x: 3114
+        y: 454
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56a75c7a5ace0ed60800000000000000
+      internalID: 7917588341145827941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_91
+      rect:
+        serializedVersion: 2
+        x: 3121
+        y: 477
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 380f5c937335b5cf0800000000000000
+      internalID: -262524656613461885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_92
+      rect:
+        serializedVersion: 2
+        x: 3136
+        y: 448
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fc820e683f215af0800000000000000
+      internalID: -409494171703669520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_93
+      rect:
+        serializedVersion: 2
+        x: 3137
+        y: 473
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0569aab9e89ee630800000000000000
+      internalID: 3958269252131710222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_94
+      rect:
+        serializedVersion: 2
+        x: 3157
+        y: 494
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95c8d92aa6ee3c0f0800000000000000
+      internalID: -1097771742386090919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_95
+      rect:
+        serializedVersion: 2
+        x: 3157
+        y: 440
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c6209914794db90800000000000000
+      internalID: -7217977994772321244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_96
+      rect:
+        serializedVersion: 2
+        x: 3159
+        y: 478
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6628b2e04b97fa800800000000000000
+      internalID: 625852687466594918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_97
+      rect:
+        serializedVersion: 2
+        x: 3174
+        y: 453
+        width: 51
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 262f4a24b38e2fa00800000000000000
+      internalID: 788948225962078818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_98
+      rect:
+        serializedVersion: 2
+        x: 3349
+        y: 440
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e6aca15da8715d70800000000000000
+      internalID: 9030131413649499881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_99
+      rect:
+        serializedVersion: 2
+        x: 3351
+        y: 491
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8135276a703acf8d0800000000000000
+      internalID: -2811192814133423336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_100
+      rect:
+        serializedVersion: 2
+        x: 3541
+        y: 440
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53544d697b9ac74c0800000000000000
+      internalID: -4288366139188951755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_101
+      rect:
+        serializedVersion: 2
+        x: 3547
+        y: 475
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67084fd1eb9559980800000000000000
+      internalID: -8532815245902315402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_102
+      rect:
+        serializedVersion: 2
+        x: 3733
+        y: 440
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2c9999f3106fcdc0800000000000000
+      internalID: -3616566336846980049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_103
+      rect:
+        serializedVersion: 2
+        x: 3737
+        y: 464
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9c315dd15305a0f0800000000000000
+      internalID: -1106474483309265761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_104
+      rect:
+        serializedVersion: 2
+        x: 3925
+        y: 440
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb468a01db1bc9d0800000000000000
+      internalID: -2753076162568238099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_105
+      rect:
+        serializedVersion: 2
+        x: 2262
+        y: 440
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3dc78218b215ff20800000000000000
+      internalID: 3455688870870895934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_106
+      rect:
+        serializedVersion: 2
+        x: 2454
+        y: 440
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fcef817c7b642080800000000000000
+      internalID: -9213120755467817740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_107
+      rect:
+        serializedVersion: 2
+        x: 2646
+        y: 440
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90f2f774bf7d424d0800000000000000
+      internalID: -3160163564270964983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_108
+      rect:
+        serializedVersion: 2
+        x: 2838
+        y: 440
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55b10e43dd4f3f4c0800000000000000
+      internalID: -4254787992022934699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_109
+      rect:
+        serializedVersion: 2
+        x: 2930
+        y: 443
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 989225935452a6860800000000000000
+      internalID: 7523867106720491913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_110
+      rect:
+        serializedVersion: 2
+        x: 3030
+        y: 440
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5111306ae1389d7b0800000000000000
+      internalID: -5198980127165050603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_111
+      rect:
+        serializedVersion: 2
+        x: 3122
+        y: 443
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fa59699b581cee40800000000000000
+      internalID: 5686947211157002996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_112
+      rect:
+        serializedVersion: 2
+        x: 3222
+        y: 440
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5114882ca4e86c980800000000000000
+      internalID: -8518965193382280939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_113
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 248
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 812840b7306652be0800000000000000
+      internalID: -1502682735523364328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_114
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 248
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9fcca2e94b859740800000000000000
+      internalID: 5158182097674620828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_115
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 87
+        width: 11
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc49bb07c6fd107f0800000000000000
+      internalID: -647991214523837235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_116
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 148
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af183a920787a8ff0800000000000000
+      internalID: -33081624121605638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_117
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 170
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 721f4f4a3c530ccd0800000000000000
+      internalID: -2539971075434548953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_118
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 148
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cc3dad7c12a15ff0800000000000000
+      internalID: -49079877673075514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_119
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 170
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59df7c28b3c49ae90800000000000000
+      internalID: -7013991126171910763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_120
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 121
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f817644d6f16d11c0800000000000000
+      internalID: -4531357937313615473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_121
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 141
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0223236e3117393b0800000000000000
+      internalID: -5506933589063618016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_122
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 87
+        width: 10
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e4e118a0a62e88e0800000000000000
+      internalID: -1689370338760989468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_123
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 122
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9acd226300a8db0a0800000000000000
+      internalID: -6864178523529880407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_124
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 93
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 617820c94550dce30800000000000000
+      internalID: 4525279061530019606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_125
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 121
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 148f22f9c9c188220800000000000000
+      internalID: 2488270253132544065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_126
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 56
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cc480c2a913bdc90800000000000000
+      internalID: -7144061845659693885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_127
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 56
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b867402a2b8457110800000000000000
+      internalID: 1257991602979501707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_128
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 56
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d13406877d001410800000000000000
+      internalID: 1445670287386620377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_129
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 87
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3827442a7b6b48790800000000000000
+      internalID: -7528691777238961533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_130
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 56
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e1b5f1d8fd2fe1d0800000000000000
+      internalID: -3319383853651086880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_131
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 56
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27f931a1313c40dc0800000000000000
+      internalID: -3673596909218193550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_132
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 56
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 206959ea14ae99da0800000000000000
+      internalID: -5937457065888475646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_133
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 61
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32cd38dc1ce319230800000000000000
+      internalID: 3643762575617023011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_134
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 77
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf91cfb86c6011230800000000000000
+      internalID: 3607672226322323963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_135
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 63
+        width: 208
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e561f20a64015c1e0800000000000000
+      internalID: -2178316949242571170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH8_StormHead-Sheet_136
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 56
+        width: 23
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da30bab287a460500800000000000000
+      internalID: 362058700039062445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1330 @@
+fileFormatVersion: 2
+guid: 93a7bab95d478dc488d19f74d0a07a08
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9164755493300655248
+    second: stormer_0
+  - first:
+      213: 1290103755021090932
+    second: stormer_1
+  - first:
+      213: -8388481753381939652
+    second: stormer_2
+  - first:
+      213: -6227704775827327249
+    second: stormer_3
+  - first:
+      213: 945983320533577105
+    second: stormer_4
+  - first:
+      213: 8428704821563440956
+    second: stormer_5
+  - first:
+      213: 5121689891584967093
+    second: stormer_6
+  - first:
+      213: 6953946494095365709
+    second: stormer_7
+  - first:
+      213: -2007042801650268139
+    second: stormer_8
+  - first:
+      213: 519828925047867625
+    second: stormer_9
+  - first:
+      213: 8444773436609094465
+    second: stormer_10
+  - first:
+      213: 3415621786350264591
+    second: stormer_11
+  - first:
+      213: -7222501216342439190
+    second: stormer_12
+  - first:
+      213: -8531264003005344893
+    second: stormer_13
+  - first:
+      213: 1403018683004754100
+    second: stormer_14
+  - first:
+      213: 8700273228930764972
+    second: stormer_15
+  - first:
+      213: 3141756645222751749
+    second: stormer_16
+  - first:
+      213: 9020403192567322313
+    second: stormer_17
+  - first:
+      213: -7548638123660473548
+    second: stormer_18
+  - first:
+      213: -7219587321961245760
+    second: stormer_19
+  - first:
+      213: -7725019383448438967
+    second: stormer_20
+  - first:
+      213: -2747211413951407541
+    second: stormer_21
+  - first:
+      213: 4761970858192057171
+    second: stormer_22
+  - first:
+      213: 8682632409342165379
+    second: stormer_23
+  - first:
+      213: 3955563461528059082
+    second: stormer_24
+  - first:
+      213: 3359874272003773601
+    second: stormer_25
+  - first:
+      213: -846554491127223918
+    second: stormer_26
+  - first:
+      213: 471019651937375121
+    second: stormer_27
+  - first:
+      213: -7336548399650654249
+    second: stormer_28
+  - first:
+      213: -7240030240629904952
+    second: stormer_29
+  - first:
+      213: 3245225883829708736
+    second: stormer_30
+  - first:
+      213: 1821656083841182196
+    second: stormer_31
+  - first:
+      213: -5084204174411311787
+    second: stormer_32
+  - first:
+      213: -91716090366005208
+    second: stormer_33
+  - first:
+      213: 9073609427378774373
+    second: stormer_34
+  - first:
+      213: 6471327771899990782
+    second: stormer_35
+  - first:
+      213: -1735958908623351669
+    second: stormer_36
+  - first:
+      213: -9176167279009986178
+    second: stormer_37
+  - first:
+      213: -4911796477401054724
+    second: stormer_38
+  - first:
+      213: 7596286142555648832
+    second: stormer_39
+  - first:
+      213: 7213340648451328223
+    second: stormer_40
+  - first:
+      213: 5107082318112858882
+    second: stormer_41
+  - first:
+      213: -1059143791043803886
+    second: stormer_42
+  - first:
+      213: 7905080707951843698
+    second: stormer_43
+  - first:
+      213: 5971508959439793850
+    second: stormer_44
+  - first:
+      213: -8444355623577659531
+    second: stormer_45
+  - first:
+      213: 2820216465718061312
+    second: stormer_46
+  - first:
+      213: 5646296982526036713
+    second: stormer_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: stormer_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 577
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 094de7f6090cf2f70800000000000000
+      internalID: 9164755493300655248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stormer_1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 573
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4700e69a78e57e110800000000000000
+      internalID: 1290103755021090932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stormer_2
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 513
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c36d2d41a40269b80800000000000000
+      internalID: -8388481753381939652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stormer_3
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 509
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe6fece808fb299a0800000000000000
+      internalID: -6227704775827327249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stormer_4
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 513
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19d29d761dec02d00800000000000000
+      internalID: 945983320533577105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stormer_5
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 510
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f39e5c066c8f470800000000000000
+      internalID: 8428704821563440956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stormer_6
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 513
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b181ad02d5e31740800000000000000
+      internalID: 5121689891584967093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stormer_7
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 509
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4690a72e71618060800000000000000
+      internalID: 6953946494095365709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stormer_8
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 513
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51881a6a43d8524e0800000000000000
+      internalID: -2007042801650268139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stormer_9
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 509
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e8837537adc63700800000000000000
+      internalID: 519828925047867625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stormer_10
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 513
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1436db1c2bcd13570800000000000000
+      internalID: 8444773436609094465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stormer_11
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 509
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f012e7efae9b66f20800000000000000
+      internalID: 3415621786350264591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stormer_12
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 513
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aea0512096584cb90800000000000000
+      internalID: -7222501216342439190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stormer_13
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 509
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3831acff69cda9980800000000000000
+      internalID: -8531264003005344893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stormer_14
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 445
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b81cb50f06887310800000000000000
+      internalID: 1403018683004754100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stormer_15
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 481
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca0524bd7649db870800000000000000
+      internalID: 8700273228930764972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stormer_16
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 483
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50e9939e503c99b20800000000000000
+      internalID: 3141756645222751749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stormer_17
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 445
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c656c759e8ee2d70800000000000000
+      internalID: 9020403192567322313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stormer_18
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 445
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43b0f35fe99dd3790800000000000000
+      internalID: -7548638123660473548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stormer_19
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 445
+        width: 44
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c31699e49fdecb90800000000000000
+      internalID: -7219587321961245760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stormer_20
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 449
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9477c86bcc73bc490800000000000000
+      internalID: -7725019383448438967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stormer_21
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 445
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4a178c36c1ffd9d0800000000000000
+      internalID: -2747211413951407541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stormer_22
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 449
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 353bc49f34be51240800000000000000
+      internalID: 4761970858192057171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stormer_23
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 445
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 381422a7c28ee7870800000000000000
+      internalID: 8682632409342165379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stormer_24
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 449
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: accf4e2c20cf4e630800000000000000
+      internalID: 3955563461528059082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stormer_25
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 449
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a452c859dba0ae20800000000000000
+      internalID: 3359874272003773601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stormer_26
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 445
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 299a951fc2f6044f0800000000000000
+      internalID: -846554491127223918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stormer_27
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 449
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19394fbb0e5698600800000000000000
+      internalID: 471019651937375121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stormer_28
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 445
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d7bc59e9185f2a90800000000000000
+      internalID: -7336548399650654249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stormer_29
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 449
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c92b200bde368b90800000000000000
+      internalID: -7240030240629904952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stormer_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 385
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c7a2955fbb590d20800000000000000
+      internalID: 3245225883829708736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stormer_31
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 381
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f968448e82d74910800000000000000
+      internalID: 1821656083841182196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stormer_32
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 385
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 555d7aa9d374179b0800000000000000
+      internalID: -5084204174411311787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stormer_33
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 381
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 820fb85a3b82abef0800000000000000
+      internalID: -91716090366005208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stormer_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 321
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5612c8d33bfebed70800000000000000
+      internalID: 9073609427378774373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stormer_35
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 317
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef2183d6256cec950800000000000000
+      internalID: 6471327771899990782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stormer_36
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 321
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8094d2f192a8e7e0800000000000000
+      internalID: -1735958908623351669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stormer_37
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 317
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e790c072a74b7a080800000000000000
+      internalID: -9176167279009986178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stormer_38
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 321
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf1ce7ba02bc5dbb0800000000000000
+      internalID: -4911796477401054724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stormer_39
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 317
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0437043fffd6b6960800000000000000
+      internalID: 7596286142555648832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stormer_40
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 321
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8c3d21a1fea1460800000000000000
+      internalID: 7213340648451328223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stormer_41
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 317
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 203abc15f4000e640800000000000000
+      internalID: 5107082318112858882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stormer_42
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 318
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21506c8655a2d41f0800000000000000
+      internalID: -1059143791043803886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stormer_43
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 314
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 279534e550d74bd60800000000000000
+      internalID: 7905080707951843698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stormer_44
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 341
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abea87c92cf0fd250800000000000000
+      internalID: 5971508959439793850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stormer_45
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 325
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 577d49bec4f9fca80800000000000000
+      internalID: -8444355623577659531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stormer_46
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 321
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00925d4feeb632720800000000000000
+      internalID: 2820216465718061312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stormer_47
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 331
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea03d3b03dab5e40800000000000000
+      internalID: 5646296982526036713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
