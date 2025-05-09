@@ -6,7 +6,6 @@ public class PlayerController : MonoBehaviour
     [Header("Movement Settings")]
     public float moveSpeed = 5f;
 
-
     [Header("Dash Settings")]
     public float dashForce = 10f;
     public float dashDuration = 0.2f;
@@ -24,12 +23,15 @@ public class PlayerController : MonoBehaviour
 
     private Vector2 moveInput;
     private bool dashPressed;
+    private bool attackPressed;
     private PlayerInputActions inputActions;
     private Vector3 originalScale;
 
     private bool isDashing = false;
     private float dashTimeRemaining = 0f;
     private float dashCooldownRemaining = 0f;
+
+    private bool isAttacking = false;
 
 
     void Awake()
@@ -48,6 +50,7 @@ public class PlayerController : MonoBehaviour
     {
         moveInput = inputActions.Player.Move.ReadValue<Vector2>();
         dashPressed = inputActions.Player.Dash.WasPressedThisFrame();
+        attackPressed = inputActions.Player.Attack.WasPressedThisFrame();
 
         if (dashCooldownRemaining > 0)
             dashCooldownRemaining -= Time.deltaTime;
@@ -134,6 +137,27 @@ public class PlayerController : MonoBehaviour
         
     }
 
+    private void OnEnterAttack()
+    {
+        isAttacking = true;
+        animator?.Play("Attack");
+    }
+    private void OnExitAttack()
+    {
+        isAttacking = false;
+    }
+
+    private bool TryAttack()
+    {
+        return (attackPressed && !isAttacking);
+    }
+
+    private bool AttackAnimationFinished()
+    {
+        AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
+        return (stateInfo.IsName("Attack") && stateInfo.normalizedTime >= 1f);
+    }
+
 
     private void SetupFSM()
     {
@@ -155,6 +179,11 @@ public class PlayerController : MonoBehaviour
             onEnter: state => OnEnterDash(),
             onLogic: state => OnLogicDash(),
             onExit: state => OnExitDash()
+        ));
+
+        fsm.AddState("Attack", new State(
+            onEnter: state => OnEnterAttack(),
+            onExit: state => OnExitAttack()
         ));
 
 
@@ -181,6 +210,24 @@ public class PlayerController : MonoBehaviour
            "Dash",
            "Idle",
            transition => dashTimeRemaining < 0f
+        ));
+
+        fsm.AddTransition(new Transition(
+            "Idle",
+            "Attack",
+            transition => TryAttack()
+        ));
+
+        fsm.AddTransition(new Transition(
+            "Walk",
+            "Attack",
+            transition => TryAttack()
+        ));
+
+        fsm.AddTransition(new Transition(
+            "Attack",
+            "Idle",
+            transition => AttackAnimationFinished()
         ));
 
 
