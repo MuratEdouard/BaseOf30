@@ -341,6 +341,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
+  dashForce: 10
+  dashDuration: 0.2
+  dashCooldown: 1
+  afterImagePrefab: {fileID: 2507746659979874358, guid: f574fbcc51488f24990a3b9f1b4d3f7e, type: 3}
+  afterImageInterval: 0.05
 --- !u!212 &355605828
 SpriteRenderer:
   m_ObjectHideFlags: 0
