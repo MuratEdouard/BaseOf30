@@ -1,5 +1,6 @@
 using System.Linq;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class RoomController : MonoBehaviour
 {
@@ -25,7 +26,7 @@ public class RoomController : MonoBehaviour
 
     private void PlaceGrass()
     {
-        Vector2[] positions = new Vector2[]{};
+        Vector2[] positions = new Vector2[] { };
 
         int nbGrassPositioned = 0;
         while (nbGrassPositioned < nbGrass)
@@ -50,6 +51,35 @@ public class RoomController : MonoBehaviour
 
     private void PlaceObstacles()
     {
+        Vector2[] positions = new Vector2[] { };
 
+        int nbObstaclesPositioned= 0;
+        while (nbObstaclesPositioned < nbObstacles)
+        {
+            var tooCloseToOtherObstacle = false;
+
+            var randX = Random.Range(-7, 7);
+            var randY = Random.Range(-4, 4);
+            var randVector2 = new Vector2(randX, randY);
+
+            foreach (var position in positions) {
+                if (Vector2.Distance(randVector2, position) < 2) {
+                    tooCloseToOtherObstacle = true;
+                    break;
+                }
+            }
+
+            if (tooCloseToOtherObstacle)
+            {
+                continue;
+            }
+            else
+            {
+                GameObject obstacle = Instantiate(obstaclePrefab, transform);
+                obstacle.transform.localPosition = randVector2;
+                positions.Append(randVector2);
+                nbObstaclesPositioned++;
+            }
+        }
     }
 }
