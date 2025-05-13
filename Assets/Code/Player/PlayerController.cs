@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour
 
 
     private Rigidbody2D rb;
+    private SpriteRenderer sr;
     private Animator animator;
     private StateMachine fsm;
 
@@ -25,7 +26,6 @@ public class PlayerController : MonoBehaviour
     private bool dashPressed;
     private bool attackPressed;
     private PlayerInputActions inputActions;
-    private Vector3 originalScale;
 
     private bool isDashing = false;
     private float dashTimeRemaining = 0f;
@@ -37,8 +37,8 @@ public class PlayerController : MonoBehaviour
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        sr = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
-        originalScale = transform.localScale;
 
         inputActions = new PlayerInputActions();
         inputActions.Player.Enable();
@@ -109,10 +109,7 @@ public class PlayerController : MonoBehaviour
 
     private void FlipAnimation()
     {
-        if (moveInput.x >= 0f)
-            transform.localScale = new Vector3(Mathf.Abs(originalScale.x), originalScale.y, originalScale.z); // Right
-        else
-            transform.localScale = new Vector3(-Mathf.Abs(originalScale.x), originalScale.y, originalScale.z); // Left
+        sr.flipX = (moveInput.x < 0);       
     }
 
 

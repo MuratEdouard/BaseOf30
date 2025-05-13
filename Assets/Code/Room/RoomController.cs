@@ -58,7 +58,7 @@ public class RoomController : MonoBehaviour
         {
             var tooCloseToOtherObstacle = false;
 
-            var randX = Random.Range(-7, 7);
+            var randX = Random.Range(-6, 6);
             var randY = Random.Range(-4, 4);
             var randVector2 = new Vector2(randX, randY);
 
