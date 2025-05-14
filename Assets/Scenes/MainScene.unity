@@ -458,11 +458,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8249964150417289805, guid: e39438ed34c417d4faa1b96a62287351, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.288835
+      value: 6.95
       objectReference: {fileID: 0}
     - target: {fileID: 8249964150417289805, guid: e39438ed34c417d4faa1b96a62287351, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.31275308
+      value: 2.82
       objectReference: {fileID: 0}
     - target: {fileID: 8249964150417289805, guid: e39438ed34c417d4faa1b96a62287351, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1655,6 +1655,9 @@ MonoBehaviour:
   dashCooldown: 0.5
   afterImagePrefab: {fileID: 2507746659979874358, guid: f574fbcc51488f24990a3b9f1b4d3f7e, type: 3}
   afterImageInterval: 0.05
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!212 &355605828
 SpriteRenderer:
   m_ObjectHideFlags: 0

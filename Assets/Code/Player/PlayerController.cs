@@ -1,8 +1,12 @@
+using UnityEditor.ShaderGraph.Internal;
 using UnityEngine;
 using UnityHFSM;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : MonoBehaviour, IHurtable
 {
+    [Header("Life settings")]
+    public int nbLives = 3;
+
     [Header("Movement Settings")]
     public float moveSpeed = 5f;
 
@@ -16,11 +20,15 @@ public class PlayerController : MonoBehaviour
     public float afterImageInterval = 0.05f;
     private float afterImageTimer = 0f;
 
+    [Header("Enemy Settings")]
+    public LayerMask enemyLayer;
+
 
     private Rigidbody2D rb;
     private SpriteRenderer sr;
     private Animator animator;
     private StateMachine fsm;
+    private CircleCollider2D attackCollider;
 
     private Vector2 moveInput;
     private bool dashPressed;
@@ -39,6 +47,7 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
+        attackCollider = GetComponent<CircleCollider2D>();
 
         inputActions = new PlayerInputActions();
         inputActions.Player.Enable();
@@ -138,6 +147,19 @@ public class PlayerController : MonoBehaviour
     {
         isAttacking = true;
         animator?.Play("Attack");
+
+        Vector2 position = attackCollider.transform.position;
+        float radius = attackCollider.radius * attackCollider.transform.lossyScale.x;
+
+        Collider2D[] hits = Physics2D.OverlapCircleAll(position, radius, enemyLayer);
+        foreach (Collider2D hit in hits)
+        {
+            var hurtable = hit.GetComponent<IHurtable>();
+            if (hurtable != null)
+            {
+                hurtable.Hurt();
+            }
+        }
     }
     private void OnExitAttack()
     {
@@ -232,5 +254,24 @@ public class PlayerController : MonoBehaviour
         // Start the state machine from idle
         fsm.SetStartState("Idle");
         fsm.Init();
+    }
+
+    public void Hurt()
+    {
+        nbLives--;
+
+        if (nbLives <= 0)
+        {
+            Die();
+        }
+        else
+        {
+            animator.Play("Hurt");
+        }
+    }
+
+    public void Die()
+    {
+        animator.Play("Die");
     }
 }

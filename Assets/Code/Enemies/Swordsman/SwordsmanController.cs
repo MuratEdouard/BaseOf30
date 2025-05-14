@@ -5,8 +5,13 @@ using UnityEngine.AI;
 using BehaviorGraph = Unity.Behavior.BehaviorGraph;
 using BlackboardReference = Unity.Behavior.BlackboardReference;
 
-public class EnemySwordsmanController : MonoBehaviour
+public class EnemySwordsmanController : MonoBehaviour, IHurtable, IAttacker
 {
+    [Header("Settings")]
+    public int health = 2;
+    public float attackCooldown = 4f;
+
+
     private SpriteRenderer sr;
     private Animator animator;
     private PlayerController player;
@@ -48,23 +53,30 @@ public class EnemySwordsmanController : MonoBehaviour
         navMeshAgent.speed = agentSpeed;
     }
 
-    public void Idle()
+    public void Hurt()
     {
-        animator.Play("Idle");
-    }   
+        health--;
 
-    public void Run()
-    {
-        animator.Play("Run");
+        if (health <= 0)
+        {
+            blackboard.SetVariableValue("isDead", true);
+        }
+        else
+        {
+            blackboard.SetVariableValue("isHurt", true);
+        }
     }
 
-    public void Attack()
+    public void Attack(IHurtable target)
     {
-        animator.Play("Attack");
+        target.Hurt();
+        print("Is on attack cooldown");
+        Invoke(nameof(ResetIsReadyToAttack), attackCooldown);
     }
 
-    public void Die()
+    public void ResetIsReadyToAttack()
     {
-        blackboard.SetVariableValue("isDead", true);
+        print("Is ready to attack again");
+        blackboard.SetVariableValue("isReadyToAttack", true);
     }
 }
