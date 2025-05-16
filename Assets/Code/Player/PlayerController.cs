@@ -23,6 +23,9 @@ public class PlayerController : MonoBehaviour, IHurtable
     [Header("Enemy Settings")]
     public LayerMask enemyLayer;
 
+    public Transform Transform => transform;
+
+
 
     private Rigidbody2D rb;
     private SpriteRenderer sr;

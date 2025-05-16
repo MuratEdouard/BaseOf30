@@ -3,27 +3,35 @@ using Unity.Behavior;
 using UnityEngine;
 using Action = Unity.Behavior.Action;
 using Unity.Properties;
+using UnityEditor.Experimental.GraphView;
 
 [Serializable, GeneratePropertyBag]
-[NodeDescription(name: "Attack", story: "[Agent] attacks [Target]", category: "Action", id: "5e012a7863981064f83473c976141118")]
+[NodeDescription(name: "Attack", story: "[Agent] attacks [Target]", category: "Action", id: "131bf1fc0a50efb4dfbdbb379de42453")]
 public partial class AttackAction : Action
 {
     [SerializeReference] public BlackboardVariable<GameObject> Agent;
     [SerializeReference] public BlackboardVariable<GameObject> Target;
+
+    private IAttacker _attacker;
+    private IHurtable _hurtable;
+
     protected override Status OnStart()
     {
-        var attacker = Agent.Value.GetComponent<IAttacker>();
-        var hurtable = Target.Value.GetComponent<IHurtable>();
-        if (attacker != null && hurtable != null)
+        _attacker = Agent.Value.GetComponent<IAttacker>();
+        _hurtable = Target.Value.GetComponent<IHurtable>();
+        if (_attacker.IsAttacking)
+            return Status.Failure;
+        else
         {
-            attacker.Attack(hurtable);
+            _attacker.Attack(_hurtable);
+            return Status.Running;
         }
-        return Status.Success;
+            
     }
 
     protected override Status OnUpdate()
     {
-        return Status.Success;
+        return _attacker.IsAttacking ? Status.Running : Status.Success;
     }
 
     protected override void OnEnd()

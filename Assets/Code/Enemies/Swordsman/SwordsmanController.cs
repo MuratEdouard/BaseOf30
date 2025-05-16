@@ -1,15 +1,20 @@
-﻿using Mono.Cecil;
+﻿using System.Collections;
+using Mono.Cecil;
 using Unity.Behavior;
 using UnityEngine;
 using UnityEngine.AI;
 using BehaviorGraph = Unity.Behavior.BehaviorGraph;
 using BlackboardReference = Unity.Behavior.BlackboardReference;
 
-public class EnemySwordsmanController : MonoBehaviour, IHurtable, IAttacker
+public class EnemySwordsmanController : MonoBehaviour, IHurtable, IAttacker, IRunner
 {
     [Header("Settings")]
-    public int health = 2;
-    public float attackCooldown = 4f;
+    public int life = 2;
+    public float attackCooldown = 2f;
+    public float hurtCooldown = 1f;
+
+    public Transform Transform => transform;
+    public bool IsAttacking { get; private set; }
 
 
     private SpriteRenderer sr;
@@ -36,6 +41,7 @@ public class EnemySwordsmanController : MonoBehaviour, IHurtable, IAttacker
         var agent = GetComponent<BehaviorGraphAgent>();
         blackboard = agent.Graph.BlackboardReference;
         blackboard.SetVariableValue("player", player.gameObject);
+        blackboard.SetVariableValue("life", life);
     }
 
     public void Update()
@@ -55,28 +61,66 @@ public class EnemySwordsmanController : MonoBehaviour, IHurtable, IAttacker
 
     public void Hurt()
     {
-        health--;
+        life--;
 
-        if (health <= 0)
+        blackboard.SetVariableValue("isHurt", true);
+        blackboard.SetVariableValue("isDead", life <= 0);
+
+        if (life <= 0)
         {
-            blackboard.SetVariableValue("isDead", true);
+            animator.Play("Die");
+            StartCoroutine(WaitToDie());
         }
         else
         {
-            blackboard.SetVariableValue("isHurt", true);
+            animator.Play("Hurt");
+            StartCoroutine(ClearIsHurtAfterCooldown());
         }
+    }
+
+    private IEnumerator ClearIsHurtAfterCooldown()
+    {
+        yield return new WaitForSeconds(hurtCooldown);
+        blackboard.SetVariableValue("isHurt", false);
     }
 
     public void Attack(IHurtable target)
     {
-        target.Hurt();
-        print("Is on attack cooldown");
-        Invoke(nameof(ResetIsReadyToAttack), attackCooldown);
+        
+        StartCoroutine(AttackSequence(target));
     }
 
-    public void ResetIsReadyToAttack()
+    private IEnumerator AttackSequence(IHurtable target)
     {
-        print("Is ready to attack again");
-        blackboard.SetVariableValue("isReadyToAttack", true);
+        IsAttacking = true;
+
+        // Play pre attack
+        animator.Play("PreAttack");
+        yield return new WaitForSeconds(0.5f);
+
+        // Record where to attack
+        Vector3 attackPosition = target.Transform.position;
+        yield return new WaitForSeconds(0.5f);
+
+        // Teleport to target and perform attack
+        transform.position = attackPosition;
+        animator.Play("PostAttack");
+
+        // Wait before being ready to attack again
+        yield return new WaitForSeconds(2f);
+        IsAttacking = false;
+    }
+
+    private IEnumerator WaitToDie()
+    {
+        AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
+        yield return new WaitForSeconds(stateInfo.length);
+
+        Destroy(gameObject);
+    }
+
+    public void Run()
+    {
+        animator.Play("Run");
     }
 }
