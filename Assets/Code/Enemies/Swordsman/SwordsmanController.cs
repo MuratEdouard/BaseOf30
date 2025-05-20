@@ -12,6 +12,7 @@ public class EnemySwordsmanController : MonoBehaviour, IHurtable, IAttacker, IRu
     public int life = 2;
     public float attackCooldown = 2f;
     public float hurtCooldown = 1f;
+    public LayerMask playerLayer;
 
     public Transform Transform => transform;
     public bool IsAttacking { get; private set; }
@@ -21,6 +22,7 @@ public class EnemySwordsmanController : MonoBehaviour, IHurtable, IAttacker, IRu
     private Animator animator;
     private PlayerController player;
     private NavMeshAgent navMeshAgent;
+    private CircleCollider2D attackCollider;
 
     private float agentSpeed;
 
@@ -32,6 +34,7 @@ public class EnemySwordsmanController : MonoBehaviour, IHurtable, IAttacker, IRu
         animator = GetComponent<Animator>();
         player = FindFirstObjectByType<PlayerController>();
         navMeshAgent = GetComponent<NavMeshAgent>();
+        attackCollider = GetComponent<CircleCollider2D>();
 
         agentSpeed = navMeshAgent.speed;
     }
@@ -61,20 +64,26 @@ public class EnemySwordsmanController : MonoBehaviour, IHurtable, IAttacker, IRu
 
     public void Hurt()
     {
-        life--;
+        bool isHurt;
+        blackboard.GetVariableValue("isHurt", out isHurt);
 
-        blackboard.SetVariableValue("isHurt", true);
-        blackboard.SetVariableValue("isDead", life <= 0);
+        if (!isHurt)
+        {
+            life--;
 
-        if (life <= 0)
-        {
-            animator.Play("Die");
-            StartCoroutine(WaitToDie());
-        }
-        else
-        {
-            animator.Play("Hurt");
-            StartCoroutine(ClearIsHurtAfterCooldown());
+            blackboard.SetVariableValue("isHurt", true);
+            blackboard.SetVariableValue("isDead", life <= 0);
+
+            if (life <= 0)
+            {
+                animator.Play("Die");
+                StartCoroutine(WaitToDie());
+            }
+            else
+            {
+                animator.Play("Hurt");
+                StartCoroutine(ClearIsHurtAfterCooldown());
+            }
         }
     }
 
@@ -105,10 +114,27 @@ public class EnemySwordsmanController : MonoBehaviour, IHurtable, IAttacker, IRu
         // Teleport to target and perform attack
         transform.position = attackPosition;
         animator.Play("PostAttack");
+        AttackPlayerIfInRange();
 
         // Wait before being ready to attack again
         yield return new WaitForSeconds(2f);
         IsAttacking = false;
+    }
+
+    private void AttackPlayerIfInRange()
+    {
+        Vector2 position = attackCollider.transform.position;
+        float radius = attackCollider.radius * attackCollider.transform.lossyScale.x;
+
+        Collider2D[] hits = Physics2D.OverlapCircleAll(position, radius, playerLayer);
+        foreach (Collider2D hit in hits)
+        {
+            var hurtable = hit.GetComponent<IHurtable>();
+            if (hurtable != null)
+            {
+                hurtable.Hurt();
+            }
+        }
     }
 
     private IEnumerator WaitToDie()

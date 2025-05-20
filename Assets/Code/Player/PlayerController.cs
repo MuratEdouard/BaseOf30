@@ -20,6 +20,15 @@ public class PlayerController : MonoBehaviour, IHurtable
     public float afterImageInterval = 0.05f;
     private float afterImageTimer = 0f;
 
+    [Header("Hurt Settings")]
+    public float hurtTimer = 0f;
+    public float hurtCooldown = 0.25f;
+    public float hurtPushForce = 5f;
+
+    [Header("Die Settings")]
+    public float dieTimer = 0f;
+    public float dieCooldown = 3f;
+
     [Header("Enemy Settings")]
     public LayerMask enemyLayer;
 
@@ -43,6 +52,9 @@ public class PlayerController : MonoBehaviour, IHurtable
     private float dashCooldownRemaining = 0f;
 
     private bool isAttacking = false;
+
+    private bool shouldHurt = false;
+    private bool isHurting = false;
 
 
     void Awake()
@@ -181,6 +193,54 @@ public class PlayerController : MonoBehaviour, IHurtable
     }
 
 
+    private void OnEnterHurt()
+    {
+        shouldHurt = false;
+        animator.Play("Hurt");
+        hurtTimer = hurtCooldown;
+        isHurting = true;
+
+        // Disable inputs while hurt
+        inputActions.Player.Disable();
+
+        // Push back player randomly
+        Vector2 hitDirection = Random.insideUnitCircle.normalized;
+        rb.AddForce(hitDirection.normalized * hurtPushForce, ForceMode2D.Impulse);
+    }
+
+    private void OnLogicHurt()
+    {
+        hurtTimer -= Time.deltaTime;
+        if (hurtTimer <= (hurtCooldown / 2f))
+        {
+            rb.linearVelocity = Vector2.zero;
+        }
+
+        if (hurtTimer <= 0f)
+        {
+            // Reenable inputs
+            inputActions.Player.Enable();
+            isHurting = false;
+        }
+    }
+
+    private void OnEnterDie()
+    {
+        animator.Play("Die");
+        dieTimer = dieCooldown;
+    }
+
+    private void OnLogicDie()
+    {
+        rb.linearVelocity = Vector2.zero;
+        dieTimer -= Time.deltaTime;
+        if (dieTimer <= 0f)
+        {
+            inputActions.Player.Disable();
+            Utils.RestartScene();
+        }
+    }
+
     private void SetupFSM()
     {
         // Create new State Machine
@@ -206,6 +266,16 @@ public class PlayerController : MonoBehaviour, IHurtable
         fsm.AddState("Attack", new State(
             onEnter: state => OnEnterAttack(),
             onExit: state => OnExitAttack()
+        ));
+
+        fsm.AddState("Hurt", new State(
+            onEnter: state => OnEnterHurt(),
+            onLogic: state => OnLogicHurt()
+        ));
+
+        fsm.AddState("Die", new State(
+            onEnter: state => OnEnterDie(),
+            onLogic: state => OnLogicDie()
         ));
 
 
@@ -252,6 +322,24 @@ public class PlayerController : MonoBehaviour, IHurtable
             transition => AttackAnimationFinished()
         ));
 
+        fsm.AddTransitionFromAny(new Transition(
+            "",
+            "Hurt",
+            transition => shouldHurt && !isHurting
+        ));
+
+        fsm.AddTransition(new Transition(
+            "Hurt",
+            "Idle",
+            transition => !isHurting
+        ));
+
+        fsm.AddTransitionFromAny(new Transition(
+            "",
+            "Die",
+            transition => nbLives <= 0
+        ));
+
 
 
         // Start the state machine from idle
@@ -261,20 +349,14 @@ public class PlayerController : MonoBehaviour, IHurtable
 
     public void Hurt()
     {
-        nbLives--;
-
-        if (nbLives <= 0)
+        if (!shouldHurt)
         {
-            Die();
-        }
-        else
-        {
-            animator.Play("Hurt");
-        }
-    }
+            nbLives--;
 
-    public void Die()
-    {
-        animator.Play("Die");
+            if (nbLives > 0)
+            {
+                shouldHurt = true;
+            }
+        }
     }
 }

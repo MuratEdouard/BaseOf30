@@ -1615,7 +1615,7 @@ GameObject:
   - component: {fileID: 355605832}
   - component: {fileID: 355605831}
   - component: {fileID: 355605827}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1649,12 +1649,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a94a07e9b34f8b34497a58686d2f7fb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nbLives: 3
   moveSpeed: 5
   dashForce: 15
   dashDuration: 0.1
   dashCooldown: 0.5
   afterImagePrefab: {fileID: 2507746659979874358, guid: f574fbcc51488f24990a3b9f1b4d3f7e, type: 3}
   afterImageInterval: 0.05
+  hurtTimer: 0
+  hurtCooldown: 0.25
+  hurtPushForce: 5
+  dieTimer: 0
+  dieCooldown: 3
   enemyLayer:
     serializedVersion: 2
     m_Bits: 8
