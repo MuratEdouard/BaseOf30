@@ -282,8 +282,6 @@ public class PlayerController : MonoBehaviour, IHurtable
 
         animator.Play("TeleportIn");
 
-        audioSourceOneTime.PlayOneShot(teleportClip);
-
         float clipLength = Utils.GetAnimationClipLength(animator, "TeleportIn");
         Invoke(nameof(OnTeleportingInFinished), clipLength);
     }

@@ -15,6 +15,7 @@ public class SandmanController : MonoBehaviour, IHurtable, IAttacker, IRunner, I
     public int life = 2;
     public float attackCooldown = 4f;
     public float hurtCooldown = 1f;
+    public AudioSource hurtAudioSource;
     public LayerMask playerLayer;
 
     [Header("Spikes Settings")]
@@ -37,7 +38,6 @@ public class SandmanController : MonoBehaviour, IHurtable, IAttacker, IRunner, I
     private Animator animator;
     private PlayerController player;
     private NavMeshAgent navMeshAgent;
-    private CircleCollider2D attackCollider;
 
     private float attackTimer = 0;
     private float agentSpeed;
@@ -50,7 +50,6 @@ public class SandmanController : MonoBehaviour, IHurtable, IAttacker, IRunner, I
         animator = GetComponent<Animator>();
         player = FindFirstObjectByType<PlayerController>();
         navMeshAgent = GetComponent<NavMeshAgent>();
-        attackCollider = GetComponent<CircleCollider2D>();
 
         agentSpeed = navMeshAgent.speed;
         IsAttacking = false;
@@ -135,6 +134,8 @@ public class SandmanController : MonoBehaviour, IHurtable, IAttacker, IRunner, I
 
             blackboard.SetVariableValue("isHurt", true);
             blackboard.SetVariableValue("isDead", life <= 0);
+
+            hurtAudioSource.Play();
 
             if (life <= 0)
             {

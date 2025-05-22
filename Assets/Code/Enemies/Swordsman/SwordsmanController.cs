@@ -12,6 +12,9 @@ public class SwordsmanController : MonoBehaviour, IHurtable, IAttacker, IRunner
     public int life = 2;
     public float attackCooldown = 2f;
     public float hurtCooldown = 1f;
+    public AudioSource preAttackAudioSource;
+    public AudioSource postAttackAudioSource;
+    public AudioSource hurtAudioSource;
     public LayerMask playerLayer;
 
     public Transform Transform => transform;
@@ -68,6 +71,8 @@ public class SwordsmanController : MonoBehaviour, IHurtable, IAttacker, IRunner
 
         if (!isHurt)
         {
+            hurtAudioSource.Play();
+
             life--;
 
             blackboard.SetVariableValue("isHurt", true);
@@ -102,8 +107,10 @@ public class SwordsmanController : MonoBehaviour, IHurtable, IAttacker, IRunner
     {
         IsAttacking = true;
 
+
         // Play pre attack
         animator.Play("PreAttack");
+        preAttackAudioSource.Play();
         yield return new WaitForSeconds(0.5f);
 
         // Record where to attack
@@ -113,6 +120,7 @@ public class SwordsmanController : MonoBehaviour, IHurtable, IAttacker, IRunner
         // Teleport to target and perform attack
         transform.position = attackPosition;
         animator.Play("PostAttack");
+        postAttackAudioSource.Play();
         AttackPlayerIfInRange();
 
         // Wait before being ready to attack again
