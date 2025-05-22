@@ -52,7 +52,7 @@ public class SwordsmanController : MonoBehaviour, IHurtable, IAttacker, IRunner
         blackboard.SetVariableValue("distanceToPlayer", distanceToPlayer);
 
         var directionToPlayer = (player.transform.position - transform.position).normalized;
-        var nextStepToPlayer = transform.position + (directionToPlayer * 2.0f);
+        var nextStepToPlayer = transform.position + (directionToPlayer * 1.0f);
         blackboard.SetVariableValue("nextStepToPlayer", nextStepToPlayer);
 
         // Prevent the nav mesh agent from rotating and flip it based on where it is moving

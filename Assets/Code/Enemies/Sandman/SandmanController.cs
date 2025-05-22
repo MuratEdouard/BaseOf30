@@ -11,14 +11,23 @@ using Random = UnityEngine.Random;
 
 public class SandmanController : MonoBehaviour, IHurtable, IAttacker, IRunner, IIdler
 {
-    [Header("Settings")]
+    [Header("General Settings")]
     public int life = 2;
     public float attackCooldown = 4f;
     public float hurtCooldown = 1f;
     public LayerMask playerLayer;
+
+    [Header("Spikes Settings")]
     public GameObject spikesPrefab;
     public int nbSpikesPerAttack = 10;
     public float waitTimeBeforeSpikesAttack = 1.0f;
+
+    [Header("Unstuck Settings")]
+    Vector3 lastPosition;
+    public float minMoveDistance = 0.1f;
+    public float checkInterval = 1f;
+    public float stuckThreshold = 3f;
+    private float stuckTimer = 0f;
 
     public Transform Transform => transform;
     public bool IsAttacking { get; private set; }
@@ -61,7 +70,7 @@ public class SandmanController : MonoBehaviour, IHurtable, IAttacker, IRunner, I
         blackboard.SetVariableValue("distanceToPlayer", distanceToPlayer);
 
         var directionToPlayer = (player.transform.position - transform.position).normalized;
-        var nextStepAwayFromPlayer = transform.position + (directionToPlayer * 2.0f * -1f);
+        var nextStepAwayFromPlayer = transform.position + (directionToPlayer * -1.0f);
         blackboard.SetVariableValue("nextStepAwayFromPlayer", nextStepAwayFromPlayer);
 
         // Prevent the nav mesh agent from rotating and flip it based on where it is moving
@@ -81,6 +90,38 @@ public class SandmanController : MonoBehaviour, IHurtable, IAttacker, IRunner, I
                 blackboard.SetVariableValue("isReadyToAttack", true);
             }
         }
+
+        if (IsStuck())
+        {
+            Unstuck();
+        }
+    }
+
+    private bool IsStuck()
+    {
+        float distanceMoved = Vector3.Distance(transform.position, lastPosition);
+
+        if (distanceMoved < minMoveDistance)
+            stuckTimer += Time.deltaTime;
+        else
+            stuckTimer = 0f;
+
+        if (stuckTimer >= stuckThreshold)
+        {
+            Unstuck();
+            stuckTimer = 0f;
+        }
+
+        if (Time.time % checkInterval < Time.deltaTime)
+            lastPosition = transform.position;
+        return false;
+    }
+
+    private void Unstuck()
+    {
+        var randX = Random.Range(-9f, 9f);
+        var randY = Random.Range(-5f, 5f);
+        navMeshAgent.SetDestination(new Vector2(randX, randY));
     }
 
     public void Hurt()
