@@ -33,6 +33,15 @@ public class PlayerController : MonoBehaviour, IHurtable
     [Header("Enemy Settings")]
     public LayerMask enemyLayer;
 
+    [Header("Audio Settings")]
+    public AudioSource audioSourceOneTime;
+    public AudioSource audioSourceLoop;
+    public AudioClip walkClip;
+    public AudioClip attackClip;
+    public AudioClip dashClip;
+    public AudioClip hurtClip;
+    public AudioClip teleportClip;
+
     public Transform Transform => transform;
 
 
@@ -97,11 +106,18 @@ public class PlayerController : MonoBehaviour, IHurtable
     private void OnEnterWalk()
     {
         animator?.Play("Walk");
+        audioSourceLoop.clip = walkClip;
+        audioSourceLoop.Play();
     }
     private void OnLogicWalk()
     {
         rb.linearVelocity = moveInput * moveSpeed;
         FlipAnimation();
+    }
+
+    private void OnExitWalk()
+    {
+        audioSourceLoop.Stop();
     }
 
     private void OnEnterDash()
@@ -111,6 +127,8 @@ public class PlayerController : MonoBehaviour, IHurtable
         dashCooldownRemaining = dashCooldown;
 
         rb.AddForce(moveInput.normalized * dashForce, ForceMode2D.Impulse);
+
+        audioSourceOneTime.PlayOneShot(dashClip);
     }
     private void OnLogicDash()
     {
@@ -183,6 +201,8 @@ public class PlayerController : MonoBehaviour, IHurtable
                 hurtable.Hurt();
             }
         }
+
+        audioSourceOneTime.PlayOneShot(attackClip);
     }
     private void OnExitAttack()
     {
@@ -216,6 +236,8 @@ public class PlayerController : MonoBehaviour, IHurtable
         // Push back player randomly
         Vector2 hitDirection = Random.insideUnitCircle.normalized;
         rb.AddForce(hitDirection.normalized * hurtPushForce, ForceMode2D.Impulse);
+
+        audioSourceOneTime.PlayOneShot(hurtClip);
     }
 
     private void OnLogicHurt()
@@ -238,6 +260,8 @@ public class PlayerController : MonoBehaviour, IHurtable
     {
         animator.Play("Die");
         dieTimer = dieCooldown;
+
+        audioSourceOneTime.PlayOneShot(hurtClip);
     }
 
     private void OnLogicDie()
@@ -257,6 +281,9 @@ public class PlayerController : MonoBehaviour, IHurtable
         rb.linearVelocity = Vector2.zero;
 
         animator.Play("TeleportIn");
+
+        audioSourceOneTime.PlayOneShot(teleportClip);
+
         float clipLength = Utils.GetAnimationClipLength(animator, "TeleportIn");
         Invoke(nameof(OnTeleportingInFinished), clipLength);
     }
@@ -272,6 +299,9 @@ public class PlayerController : MonoBehaviour, IHurtable
         rb.linearVelocity = Vector2.zero;
 
         animator.Play("TeleportOut");
+
+        audioSourceOneTime.PlayOneShot(teleportClip);
+
         float clipLength = Utils.GetAnimationClipLength(animator, "TeleportOut");
         Invoke(nameof(OnTeleportingOutFinished), clipLength);
     }
@@ -295,7 +325,8 @@ public class PlayerController : MonoBehaviour, IHurtable
 
         fsm.AddState("Walk", new State(
             onEnter: state => OnEnterWalk(),
-            onLogic: state => OnLogicWalk()
+            onLogic: state => OnLogicWalk(),
+            onExit: state => OnExitWalk()
         ));
 
         fsm.AddState("Dash", new State(
