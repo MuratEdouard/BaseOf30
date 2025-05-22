@@ -169,7 +169,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -249,19 +249,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 270
-        width: 37
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 272
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2b95984e467919370800000000000000
-      internalID: 8327603645571488178
+      spriteID: 84908a6e36995274aa247a9a1cdd83fc
+      internalID: -1331207072
       vertices: []
       indices: 
       edges: []
@@ -270,20 +270,20 @@ TextureImporter:
       name: sandman_1
       rect:
         serializedVersion: 2
-        x: 44
-        y: 270
-        width: 41
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 48
+        y: 272
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e39d62e76e4eeedb0800000000000000
-      internalID: -4760616077473949378
+      spriteID: 54a38eb95e153424f94675c66092694c
+      internalID: -1982955767
       vertices: []
       indices: 
       edges: []
@@ -292,20 +292,20 @@ TextureImporter:
       name: sandman_2
       rect:
         serializedVersion: 2
-        x: 91
-        y: 273
-        width: 10
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 96
+        y: 272
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ffe6c890160b73a20800000000000000
-      internalID: 3042094004130574079
+      spriteID: d47265a95c3f522458ece9724c764d49
+      internalID: -1687340383
       vertices: []
       indices: 
       edges: []
@@ -314,20 +314,20 @@ TextureImporter:
       name: sandman_3
       rect:
         serializedVersion: 2
-        x: 107
-        y: 270
-        width: 26
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 144
+        y: 272
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 12ddbaaeda33b78a0800000000000000
-      internalID: -6306390031142757087
+      spriteID: bb369b2c18133324da3abd8a1951c7b5
+      internalID: -1894024098
       vertices: []
       indices: 
       edges: []
@@ -336,20 +336,20 @@ TextureImporter:
       name: sandman_4
       rect:
         serializedVersion: 2
-        x: 139
-        y: 270
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 192
+        y: 272
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 266e9187455ad6520800000000000000
-      internalID: 2696993534075594338
+      spriteID: 1a9b0a1895b97d84ca5c0a3356680c1d
+      internalID: 1047222861
       vertices: []
       indices: 
       edges: []
@@ -358,20 +358,20 @@ TextureImporter:
       name: sandman_5
       rect:
         serializedVersion: 2
-        x: 155
-        y: 270
-        width: 39
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 240
+        y: 272
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 41ee7a969d7e3a2c0800000000000000
-      internalID: -4421435488181162476
+      spriteID: 844b6d7406664914692697ff3271fe2c
+      internalID: -729010043
       vertices: []
       indices: 
       edges: []
@@ -380,20 +380,20 @@ TextureImporter:
       name: sandman_6
       rect:
         serializedVersion: 2
-        x: 203
-        y: 270
-        width: 36
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 224
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d807b9f954f92f0d0800000000000000
-      internalID: -3390472448077238131
+      spriteID: b82c0b78bf5b77a4c8f04e98ab26bcda
+      internalID: -716239886
       vertices: []
       indices: 
       edges: []
@@ -402,20 +402,20 @@ TextureImporter:
       name: sandman_7
       rect:
         serializedVersion: 2
-        x: 251
-        y: 270
-        width: 26
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 48
+        y: 224
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c9846a398553ff5e0800000000000000
-      internalID: -1873720265412294500
+      spriteID: 6d358eb6b3911b74a9cd9d2d25bae662
+      internalID: 1474530477
       vertices: []
       indices: 
       edges: []
@@ -424,20 +424,20 @@ TextureImporter:
       name: sandman_8
       rect:
         serializedVersion: 2
-        x: 283
-        y: 273
-        width: 13
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 96
+        y: 224
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bf9ba92896b93a5d0800000000000000
-      internalID: -3052425244962014725
+      spriteID: 80fe2e8e9d3d7cf4093d2c16db17cb17
+      internalID: -2024117964
       vertices: []
       indices: 
       edges: []
@@ -446,20 +446,20 @@ TextureImporter:
       name: sandman_9
       rect:
         serializedVersion: 2
-        x: 3
-        y: 260
-        width: 10
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 144
+        y: 224
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f7b39ddf65c06e540800000000000000
-      internalID: 5036726801026071423
+      spriteID: 5640352260299b54993af29b1541c79d
+      internalID: -2117329237
       vertices: []
       indices: 
       edges: []
@@ -468,20 +468,20 @@ TextureImporter:
       name: sandman_10
       rect:
         serializedVersion: 2
-        x: 11
-        y: 222
-        width: 26
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 192
+        y: 224
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4400a67cfbde1de50800000000000000
-      internalID: 6832503517637902404
+      spriteID: a3186b61315d04447b5ca436c309c44b
+      internalID: 1713822126
       vertices: []
       indices: 
       edges: []
@@ -490,20 +490,20 @@ TextureImporter:
       name: sandman_11
       rect:
         serializedVersion: 2
-        x: 43
-        y: 221
-        width: 11
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 240
+        y: 224
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 849ccf7519bae3450800000000000000
-      internalID: 6070477988476799304
+      spriteID: a157da64d3c82524c992718fa24bc493
+      internalID: -768698343
       vertices: []
       indices: 
       edges: []
@@ -512,20 +512,20 @@ TextureImporter:
       name: sandman_12
       rect:
         serializedVersion: 2
-        x: 54
-        y: 222
-        width: 33
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 176
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 64ca6a4f93a6f5ed0800000000000000
-      internalID: -2423101277351793594
+      spriteID: 6f5d94b6cade07847bc9505d4db25eb0
+      internalID: -805841107
       vertices: []
       indices: 
       edges: []
@@ -534,20 +534,20 @@ TextureImporter:
       name: sandman_13
       rect:
         serializedVersion: 2
-        x: 90
-        y: 221
-        width: 8
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 48
+        y: 176
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a7bdd426be5d5bbb0800000000000000
-      internalID: -4920791810889098374
+      spriteID: b92593c4c18f90444b53b9209ff2d772
+      internalID: 48982862
       vertices: []
       indices: 
       edges: []
@@ -556,20 +556,20 @@ TextureImporter:
       name: sandman_14
       rect:
         serializedVersion: 2
-        x: 101
-        y: 222
-        width: 35
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 96
+        y: 176
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6f6416d3b07754580800000000000000
-      internalID: -8843531403113969930
+      spriteID: bc163937cc1a4bd40bf5540daa28a7ad
+      internalID: 1539362305
       vertices: []
       indices: 
       edges: []
@@ -578,20 +578,20 @@ TextureImporter:
       name: sandman_15
       rect:
         serializedVersion: 2
-        x: 138
-        y: 225
-        width: 10
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 144
+        y: 176
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bacd73d4e7e9e53a0800000000000000
-      internalID: -6674723332417921877
+      spriteID: 86033be785b0cb14aa16c972f25f5d08
+      internalID: -2079442659
       vertices: []
       indices: 
       edges: []
@@ -600,20 +600,20 @@ TextureImporter:
       name: sandman_16
       rect:
         serializedVersion: 2
-        x: 140
-        y: 221
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 192
+        y: 176
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e1bb6229a318cdbc0800000000000000
-      internalID: -3756985900573738210
+      spriteID: c2ed130d8c3d5db48adb7ccd8924a809
+      internalID: -1308601148
       vertices: []
       indices: 
       edges: []
@@ -622,20 +622,20 @@ TextureImporter:
       name: sandman_17
       rect:
         serializedVersion: 2
-        x: 150
-        y: 222
-        width: 30
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 240
+        y: 176
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1008b01986de7fca0800000000000000
-      internalID: -5983052546572582911
+      spriteID: 79117c422b9ecbc4aa3d8e9c02e0a556
+      internalID: 1181240451
       vertices: []
       indices: 
       edges: []
@@ -644,20 +644,20 @@ TextureImporter:
       name: sandman_18
       rect:
         serializedVersion: 2
-        x: 183
-        y: 222
-        width: 45
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 128
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4e4fde26e99b65180800000000000000
-      internalID: -9126903504903998236
+      spriteID: bfb6299d98430f942905812ec26baaac
+      internalID: 1945057936
       vertices: []
       indices: 
       edges: []
@@ -666,20 +666,20 @@ TextureImporter:
       name: sandman_19
       rect:
         serializedVersion: 2
-        x: 235
-        y: 222
-        width: 13
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 48
+        y: 128
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5f86f1d530a990b00800000000000000
-      internalID: 795336148445522165
+      spriteID: 6aae5cdadcc26e0418ae60fa5abb9390
+      internalID: -661109205
       vertices: []
       indices: 
       edges: []
@@ -688,20 +688,20 @@ TextureImporter:
       name: sandman_20
       rect:
         serializedVersion: 2
-        x: 251
-        y: 222
-        width: 36
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 96
+        y: 128
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8a042ca7210708ec0800000000000000
-      internalID: -3566727680206159704
+      spriteID: a99794fd69aa86241ba9af1879f77c57
+      internalID: 1744374294
       vertices: []
       indices: 
       edges: []
@@ -710,20 +710,20 @@ TextureImporter:
       name: sandman_21
       rect:
         serializedVersion: 2
-        x: 11
-        y: 174
-        width: 39
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 144
+        y: 128
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 792699a8af9ceedc0800000000000000
-      internalID: -3607724173572873577
+      spriteID: 64b122134067d7c4e9cb0d3c236d654f
+      internalID: -2105868578
       vertices: []
       indices: 
       edges: []
@@ -732,20 +732,20 @@ TextureImporter:
       name: sandman_22
       rect:
         serializedVersion: 2
-        x: 59
-        y: 174
-        width: 38
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 192
+        y: 128
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 381d95538c9ebc490800000000000000
-      internalID: -7724823689726144125
+      spriteID: ad2fdb7edee2b0440a6af8b922b6ee90
+      internalID: 2037789973
       vertices: []
       indices: 
       edges: []
@@ -754,20 +754,20 @@ TextureImporter:
       name: sandman_23
       rect:
         serializedVersion: 2
-        x: 195
-        y: 201
-        width: 10
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 240
+        y: 128
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8018c554a7e91b270800000000000000
-      internalID: 8264561039188459784
+      spriteID: a65e50f7d2f3fa142a50208861e168bd
+      internalID: -1759848901
       vertices: []
       indices: 
       edges: []
@@ -776,20 +776,20 @@ TextureImporter:
       name: sandman_24
       rect:
         serializedVersion: 2
-        x: 11
-        y: 126
-        width: 26
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 80
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5f83d4810f9155990800000000000000
-      internalID: -7397978293895612171
+      spriteID: 9c82874f25ea099438f7dfd824bd7dc4
+      internalID: 1124725274
       vertices: []
       indices: 
       edges: []
@@ -798,20 +798,20 @@ TextureImporter:
       name: sandman_25
       rect:
         serializedVersion: 2
-        x: 59
-        y: 126
-        width: 35
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 48
+        y: 80
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4c05ba9764ea584c0800000000000000
-      internalID: -4285827852660944700
+      spriteID: 3028ffad6a9d3ea488a64366d71c6094
+      internalID: -2026978116
       vertices: []
       indices: 
       edges: []
@@ -820,20 +820,20 @@ TextureImporter:
       name: sandman_26
       rect:
         serializedVersion: 2
-        x: 91
-        y: 125
-        width: 7
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 96
+        y: 80
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 201600674a08a6d30800000000000000
-      internalID: 4425491027687661826
+      spriteID: af5701e8544174148a44b35ef7cd3848
+      internalID: 987269048
       vertices: []
       indices: 
       edges: []
@@ -842,20 +842,20 @@ TextureImporter:
       name: sandman_27
       rect:
         serializedVersion: 2
-        x: 104
-        y: 125
-        width: 40
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 144
+        y: 80
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 916af54c82839cf40800000000000000
-      internalID: 5749188147059598873
+      spriteID: bda1652b5cb41f0419874f31b9fa55e3
+      internalID: 1207576124
       vertices: []
       indices: 
       edges: []
@@ -864,20 +864,20 @@ TextureImporter:
       name: sandman_28
       rect:
         serializedVersion: 2
-        x: 154
-        y: 124
-        width: 30
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 32
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 48fc2fbf8fc84cc20800000000000000
-      internalID: 3225858234110889860
+      spriteID: cfe630bdb9753224d9ac88e3e42b19ec
+      internalID: -897746000
       vertices: []
       indices: 
       edges: []
@@ -886,20 +886,20 @@ TextureImporter:
       name: sandman_29
       rect:
         serializedVersion: 2
-        x: 188
-        y: 129
-        width: 10
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 48
+        y: 32
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2ad2104aafa92da10800000000000000
-      internalID: 1932777591379406242
+      spriteID: a6488fb7a601b9746bae03727f53474b
+      internalID: 1128278961
       vertices: []
       indices: 
       edges: []
@@ -908,20 +908,20 @@ TextureImporter:
       name: sandman_30
       rect:
         serializedVersion: 2
-        x: 202
-        y: 127
-        width: 38
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 96
+        y: 32
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a7c60af7d05606c40800000000000000
-      internalID: 5503509853296946298
+      spriteID: b3166cd34679baa479e30e4ff8e9bd7f
+      internalID: 1191139111
       vertices: []
       indices: 
       edges: []
@@ -930,20 +930,20 @@ TextureImporter:
       name: sandman_31
       rect:
         serializedVersion: 2
-        x: 246
-        y: 129
-        width: 11
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 144
+        y: 32
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 412377df6d30062e0800000000000000
-      internalID: -2134702001463283180
+      spriteID: e7fa3ad7660fa7046b0e490b2dcaab31
+      internalID: -858002196
       vertices: []
       indices: 
       edges: []
@@ -952,20 +952,20 @@ TextureImporter:
       name: sandman_32
       rect:
         serializedVersion: 2
-        x: 253
-        y: 128
-        width: 33
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 192
+        y: 32
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 257c7135d5f94f690800000000000000
-      internalID: -7569249850528118958
+      spriteID: 2250dc89449603844b70334ef9fd8d06
+      internalID: -1561749835
       vertices: []
       indices: 
       edges: []
@@ -974,262 +974,20 @@ TextureImporter:
       name: sandman_33
       rect:
         serializedVersion: 2
-        x: 10
-        y: 93
-        width: 21
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 240
+        y: 32
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: af8c2b76ce459f520800000000000000
-      internalID: 2736311622933072122
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sandman_34
-      rect:
-        serializedVersion: 2
-        x: 60
-        y: 86
-        width: 15
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ec15bc8ac081e2740800000000000000
-      internalID: 5129063468272144846
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sandman_35
-      rect:
-        serializedVersion: 2
-        x: 63
-        y: 97
-        width: 14
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9b1298b5f51ae3590800000000000000
-      internalID: -7692533682572549703
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sandman_36
-      rect:
-        serializedVersion: 2
-        x: 10
-        y: 80
-        width: 11
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 808bbbe0a37666600800000000000000
-      internalID: 461169510905001992
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sandman_37
-      rect:
-        serializedVersion: 2
-        x: 20
-        y: 82
-        width: 7
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: caff0df83b9d19540800000000000000
-      internalID: 5013027225475284908
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sandman_38
-      rect:
-        serializedVersion: 2
-        x: 39
-        y: 82
-        width: 10
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 72706a5466058c2a0800000000000000
-      internalID: -6717030444037699801
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sandman_39
-      rect:
-        serializedVersion: 2
-        x: 10
-        y: 30
-        width: 38
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 999df890f8fa92c20800000000000000
-      internalID: 3182267640589572505
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sandman_40
-      rect:
-        serializedVersion: 2
-        x: 55
-        y: 30
-        width: 35
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 24127d0d2f05e74b0800000000000000
-      internalID: -5440822296000913086
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sandman_41
-      rect:
-        serializedVersion: 2
-        x: 105
-        y: 30
-        width: 29
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6a8b8ccb91f1a8420800000000000000
-      internalID: 2632951127553390758
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sandman_42
-      rect:
-        serializedVersion: 2
-        x: 153
-        y: 30
-        width: 29
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cd6696e949545fa10800000000000000
-      internalID: 1942535318895421148
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sandman_43
-      rect:
-        serializedVersion: 2
-        x: 202
-        y: 30
-        width: 27
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2ed74a7ead77707c0800000000000000
-      internalID: -4105180753252024862
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sandman_44
-      rect:
-        serializedVersion: 2
-        x: 251
-        y: 30
-        width: 27
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1d99c4fea79642d20800000000000000
-      internalID: 3252840807590042065
+      spriteID: c6233bd5541156e4d9cc369a308f4161
+      internalID: 2129190043
       vertices: []
       indices: 
       edges: []
@@ -1238,7 +996,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4f9bc39300783ee4c9e000592778dd7c
     internalID: 0
     vertices: []
     indices: 
@@ -1247,7 +1005,41 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sandman_0: -1331207072
+      sandman_1: -1982955767
+      sandman_10: 1713822126
+      sandman_11: -768698343
+      sandman_12: -805841107
+      sandman_13: 48982862
+      sandman_14: 1539362305
+      sandman_15: -2079442659
+      sandman_16: -1308601148
+      sandman_17: 1181240451
+      sandman_18: 1945057936
+      sandman_19: -661109205
+      sandman_2: -1687340383
+      sandman_20: 1744374294
+      sandman_21: -2105868578
+      sandman_22: 2037789973
+      sandman_23: -1759848901
+      sandman_24: 1124725274
+      sandman_25: -2026978116
+      sandman_26: 987269048
+      sandman_27: 1207576124
+      sandman_28: -897746000
+      sandman_29: 1128278961
+      sandman_3: -1894024098
+      sandman_30: 1191139111
+      sandman_31: -858002196
+      sandman_32: -1561749835
+      sandman_33: 2129190043
+      sandman_4: 1047222861
+      sandman_5: -729010043
+      sandman_6: -716239886
+      sandman_7: 1474530477
+      sandman_8: -2024117964
+      sandman_9: -2117329237
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

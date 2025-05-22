@@ -444,63 +444,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &108179955
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3145367101444163543, guid: e39438ed34c417d4faa1b96a62287351, type: 3}
-      propertyPath: m_Name
-      value: Swordsman
-      objectReference: {fileID: 0}
-    - target: {fileID: 8249964150417289805, guid: e39438ed34c417d4faa1b96a62287351, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 6.95
-      objectReference: {fileID: 0}
-    - target: {fileID: 8249964150417289805, guid: e39438ed34c417d4faa1b96a62287351, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.82
-      objectReference: {fileID: 0}
-    - target: {fileID: 8249964150417289805, guid: e39438ed34c417d4faa1b96a62287351, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.0056581385
-      objectReference: {fileID: 0}
-    - target: {fileID: 8249964150417289805, guid: e39438ed34c417d4faa1b96a62287351, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8249964150417289805, guid: e39438ed34c417d4faa1b96a62287351, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8249964150417289805, guid: e39438ed34c417d4faa1b96a62287351, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8249964150417289805, guid: e39438ed34c417d4faa1b96a62287351, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8249964150417289805, guid: e39438ed34c417d4faa1b96a62287351, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8249964150417289805, guid: e39438ed34c417d4faa1b96a62287351, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8249964150417289805, guid: e39438ed34c417d4faa1b96a62287351, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e39438ed34c417d4faa1b96a62287351, type: 3}
 --- !u!1 &147289356
 GameObject:
   m_ObjectHideFlags: 0
@@ -4240,6 +4183,9 @@ MonoBehaviour:
   obstaclePrefab: {fileID: 1204170162792937658, guid: a07e4345083898c41b8cb3e2454dceff, type: 3}
   nbObstacles: 4
   wallPrefab: {fileID: 346442768148537363, guid: de954d1c6176f7b4e943a299de6b5af1, type: 3}
+  enemyPrefabs:
+  - {fileID: 3145367101444163543, guid: 8d38c6399e9fc734db8134ef218c4c09, type: 3}
+  nbEnemies: 2
 --- !u!1 &1462949495
 GameObject:
   m_ObjectHideFlags: 0
@@ -6692,7 +6638,7 @@ MonoBehaviour:
   m_OverrideTileSize: 0
   m_TileSize: 256
   m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.016666668
+  m_VoxelSize: 0.06666667
   m_BuildHeightMesh: 0
   m_MinRegionArea: 0
   m_HideEditorLogs: 0
@@ -7162,4 +7108,3 @@ SceneRoots:
   - {fileID: 712026748}
   - {fileID: 1082914935}
   - {fileID: 355605826}
-  - {fileID: 108179955}

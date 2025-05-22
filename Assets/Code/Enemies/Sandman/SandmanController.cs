@@ -1,18 +1,24 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
+using System.Linq;
 using Mono.Cecil;
 using Unity.Behavior;
 using UnityEngine;
 using UnityEngine.AI;
 using BehaviorGraph = Unity.Behavior.BehaviorGraph;
 using BlackboardReference = Unity.Behavior.BlackboardReference;
+using Random = UnityEngine.Random;
 
-public class SwordsmanController : MonoBehaviour, IHurtable, IAttacker, IRunner
+public class SandmanController : MonoBehaviour, IHurtable, IAttacker, IRunner, IIdler
 {
     [Header("Settings")]
     public int life = 2;
-    public float attackCooldown = 2f;
+    public float attackCooldown = 4f;
     public float hurtCooldown = 1f;
     public LayerMask playerLayer;
+    public GameObject spikesPrefab;
+    public int nbSpikesPerAttack = 10;
+    public float waitTimeBeforeSpikesAttack = 1.0f;
 
     public Transform Transform => transform;
     public bool IsAttacking { get; private set; }
@@ -24,6 +30,7 @@ public class SwordsmanController : MonoBehaviour, IHurtable, IAttacker, IRunner
     private NavMeshAgent navMeshAgent;
     private CircleCollider2D attackCollider;
 
+    private float attackTimer = 0;
     private float agentSpeed;
 
     private BlackboardReference blackboard;
@@ -37,6 +44,8 @@ public class SwordsmanController : MonoBehaviour, IHurtable, IAttacker, IRunner
         attackCollider = GetComponent<CircleCollider2D>();
 
         agentSpeed = navMeshAgent.speed;
+        IsAttacking = false;
+        attackTimer = attackCooldown;
     }
 
     private void Start()
@@ -52,13 +61,26 @@ public class SwordsmanController : MonoBehaviour, IHurtable, IAttacker, IRunner
         blackboard.SetVariableValue("distanceToPlayer", distanceToPlayer);
 
         var directionToPlayer = (player.transform.position - transform.position).normalized;
-        var nextStepToPlayer = transform.position + (directionToPlayer * 2.0f);
-        blackboard.SetVariableValue("nextStepToPlayer", nextStepToPlayer);
+        var nextStepAwayFromPlayer = transform.position + (directionToPlayer * 2.0f * -1f);
+        blackboard.SetVariableValue("nextStepAwayFromPlayer", nextStepAwayFromPlayer);
 
         // Prevent the nav mesh agent from rotating and flip it based on where it is moving
         transform.localRotation = new Quaternion(0, 0, 0, 0);
         sr.flipX = navMeshAgent.velocity.x < 0;
         navMeshAgent.speed = agentSpeed;
+
+        bool isReadyToAttack;
+        blackboard.GetVariableValue("isReadyToAttack", out isReadyToAttack);
+        if (!isReadyToAttack)
+        {
+            if (attackTimer > 0)
+                attackTimer -= Time.deltaTime;
+            else
+            {
+                attackTimer = 0;
+                blackboard.SetVariableValue("isReadyToAttack", true);
+            }
+        }
     }
 
     public void Hurt()
@@ -95,43 +117,51 @@ public class SwordsmanController : MonoBehaviour, IHurtable, IAttacker, IRunner
     public void Attack(IHurtable target)
     {
         
-        StartCoroutine(AttackSequence(target));
+        StartCoroutine(AttackSequence());
     }
 
-    private IEnumerator AttackSequence(IHurtable target)
+    private IEnumerator AttackSequence()
     {
         IsAttacking = true;
+        blackboard.SetVariableValue("isReadyToAttack", false);
+        attackTimer = attackCooldown;
 
-        // Play pre attack
-        animator.Play("PreAttack");
+        // Play attack
+        animator.Play("Attack");
         yield return new WaitForSeconds(0.5f);
 
-        // Record where to attack
-        Vector3 attackPosition = target.Transform.position;
-        yield return new WaitForSeconds(0.5f);
-
-        // Teleport to target and perform attack
-        transform.position = attackPosition;
-        animator.Play("PostAttack");
-        AttackPlayerIfInRange();
-
-        // Wait before being ready to attack again
-        yield return new WaitForSeconds(2f);
+        // Spawn spikes
+        SpawnSpikes();
         IsAttacking = false;
     }
 
-    private void AttackPlayerIfInRange()
+    private void SpawnSpikes()
     {
-        Vector2 position = attackCollider.transform.position;
-        float radius = attackCollider.radius * attackCollider.transform.lossyScale.x;
+        Vector2[] positions = new Vector2[] { };
 
-        Collider2D[] hits = Physics2D.OverlapCircleAll(position, radius, playerLayer);
-        foreach (Collider2D hit in hits)
+        int nbSpikesPositioned = 0;
+        while (nbSpikesPositioned < nbSpikesPerAttack)
         {
-            var hurtable = hit.GetComponent<IHurtable>();
-            if (hurtable != null)
+            var randX = Random.Range(-9f, 9f);
+            var randY = Random.Range(-5f, 5f);
+            var randVector2 = new Vector2(randX, randY);
+
+            if (positions.Contains(randVector2))
             {
-                hurtable.Hurt();
+                continue;
+            }
+            else
+            {
+                GameObject spikes = Instantiate(spikesPrefab);
+                spikes.transform.localPosition = randVector2;
+
+                // Get the script and configure it
+                SpikesController controller = spikes.GetComponent<SpikesController>();
+                controller.playerLayer = playerLayer;
+                controller.waitTimeBeforeAttack = waitTimeBeforeSpikesAttack;
+
+                positions.Append(randVector2);
+                nbSpikesPositioned++;
             }
         }
     }
@@ -147,5 +177,10 @@ public class SwordsmanController : MonoBehaviour, IHurtable, IAttacker, IRunner
     public void Run()
     {
         animator.Play("Run");
+    }
+
+    public void Idle()
+    {
+        animator.Play("Idle");
     }
 }

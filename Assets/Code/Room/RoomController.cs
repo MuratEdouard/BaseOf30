@@ -13,6 +13,9 @@ public class RoomController : MonoBehaviour
 
     public GameObject wallPrefab;
 
+    public GameObject[] enemyPrefabs;
+    public int nbEnemies = 2;
+
     void Awake()
     {
         Random.InitState(System.DateTime.Now.Ticks.GetHashCode());
@@ -22,6 +25,7 @@ public class RoomController : MonoBehaviour
     {
         PlaceGrass();
         PlaceObstacles();
+        SpawnEnemies();
     }
 
     private void PlaceGrass()
@@ -80,6 +84,26 @@ public class RoomController : MonoBehaviour
                 positions.Append(randVector2);
                 nbObstaclesPositioned++;
             }
+        }
+    }
+
+    private void SpawnEnemies()
+    {
+        Vector2[] positions = new Vector2[] { };
+
+        int nbEnemiesPositioned = 0;
+        while (nbEnemiesPositioned < nbEnemies)
+        {
+            var randX = Random.Range(-9f, 9f);
+            var randY = Random.Range(-5f, 5f);
+            var randVector2 = new Vector2(randX, randY);
+
+            enemyPrefabs.Shuffle();
+
+            GameObject enemy = Instantiate(enemyPrefabs[0], transform);
+            enemy.transform.localPosition = randVector2;
+            positions.Append(randVector2);
+            nbEnemiesPositioned++;
         }
     }
 }
