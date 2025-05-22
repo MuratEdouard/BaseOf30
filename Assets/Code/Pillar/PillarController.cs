@@ -1,3 +1,4 @@
+using Mono.Cecil.Cil;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -5,14 +6,23 @@ public class PillarController : MonoBehaviour
 {
     public Animator animator;
     public PlayerController player;
+    public AudioSource audioSource;
 
+    private bool isPoppingUp = false;
     private bool isPoppedUp = false;
 
     public void PopUp()
     {
-        animator.Play("PopUp");
-        float clipLength = Utils.GetAnimationClipLength(animator, "PopUp");
-        Invoke(nameof(OnPoppedUp), clipLength);
+        if (!isPoppingUp)
+        {
+            isPoppingUp = true;
+            animator.Play("PopUp");
+
+            audioSource.Play();
+
+            float clipLength = Utils.GetAnimationClipLength(animator, "PopUp");
+            Invoke(nameof(OnPoppedUp), clipLength);
+        }
     }
     private void OnPoppedUp()
     {
