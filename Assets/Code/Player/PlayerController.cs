@@ -1,3 +1,4 @@
+using UnityEditor.Rendering;
 using UnityEditor.ShaderGraph.Internal;
 using UnityEngine;
 using UnityHFSM;
@@ -55,6 +56,9 @@ public class PlayerController : MonoBehaviour, IHurtable
 
     private bool shouldHurt = false;
     private bool isHurting = false;
+
+    private bool isTeleportingIn = true;
+    private bool isTeleportingOut = false;
 
 
     void Awake()
@@ -241,6 +245,37 @@ public class PlayerController : MonoBehaviour, IHurtable
         }
     }
 
+    private void OnEnterTeleportingIn()
+    {
+        inputActions.Player.Disable();
+        rb.linearVelocity = Vector2.zero;
+
+        animator.Play("TeleportIn");
+        float clipLength = Utils.GetAnimationClipLength(animator, "TeleportIn");
+        Invoke(nameof(OnTeleportingInFinished), clipLength);
+    }
+    private void OnTeleportingInFinished()
+    {
+        isTeleportingIn = false;
+        inputActions.Player.Enable();
+    }
+
+    private void OnEnterTeleportingOut()
+    {
+        inputActions.Player.Disable();
+        rb.linearVelocity = Vector2.zero;
+
+        animator.Play("TeleportOut");
+        float clipLength = Utils.GetAnimationClipLength(animator, "TeleportOut");
+        Invoke(nameof(OnTeleportingOutFinished), clipLength);
+    }
+    private void OnTeleportingOutFinished()
+    {
+        gameObject.SetActive(false);
+        inputActions.Player.Disable();
+        Utils.RestartScene();
+    }
+
     private void SetupFSM()
     {
         // Create new State Machine
@@ -278,8 +313,22 @@ public class PlayerController : MonoBehaviour, IHurtable
             onLogic: state => OnLogicDie()
         ));
 
+        fsm.AddState("TeleportingIn", new State(
+            onEnter: state => OnEnterTeleportingIn()
+        ));
+
+        fsm.AddState("TeleportingOut", new State(
+            onEnter: state => OnEnterTeleportingOut()
+        ));
+
 
         // Add transitions
+        fsm.AddTransition(new Transition(
+            "TeleportingIn",
+            "Idle",
+            transition => !isTeleportingIn
+        ));
+
         fsm.AddTransition(new Transition(
             "Idle",
             "Walk",
@@ -340,10 +389,16 @@ public class PlayerController : MonoBehaviour, IHurtable
             transition => nbLives <= 0
         ));
 
+        fsm.AddTransitionFromAny(new Transition(
+            "",
+            "TeleportingOut",
+            transition => isTeleportingOut
+        ));
+
 
 
         // Start the state machine from idle
-        fsm.SetStartState("Idle");
+        fsm.SetStartState("TeleportingIn");
         fsm.Init();
     }
 
@@ -358,5 +413,10 @@ public class PlayerController : MonoBehaviour, IHurtable
                 shouldHurt = true;
             }
         }
+    }
+
+    public void TeleportOut()
+    {
+        isTeleportingOut = true;
     }
 }

@@ -4,6 +4,11 @@ using UnityEngine.UIElements;
 
 public class RoomController : MonoBehaviour
 {
+    [Header("General Settings")]
+    public GameObject enemies;
+    public GameObject floor;
+    public GameObject obstacles;
+
     [Header("Prefabs Settings")]
     public GameObject grassPrefab;
     public int nbGrass = 10;
@@ -11,10 +16,10 @@ public class RoomController : MonoBehaviour
     public GameObject obstaclePrefab;
     public int nbObstacles = 4;
 
-    public GameObject wallPrefab;
-
     public GameObject[] enemyPrefabs;
     public int nbEnemies = 2;
+
+    public PillarController pillar;
 
     void Awake()
     {
@@ -25,7 +30,8 @@ public class RoomController : MonoBehaviour
     {
         PlaceGrass();
         PlaceObstacles();
-        SpawnEnemies();
+        Invoke(nameof(SpawnEnemies), 1f);
+        InvokeRepeating(nameof(CheckIfAllEnemiesDefeated), 2f, 2f);
     }
 
     private void PlaceGrass()
@@ -45,7 +51,7 @@ public class RoomController : MonoBehaviour
             }
             else
             {
-                GameObject grass = Instantiate(grassPrefab, transform);
+                GameObject grass = Instantiate(grassPrefab, floor.transform);
                 grass.transform.localPosition = randVector2;
                 positions.Append(randVector2);
                 nbGrassPositioned++;
@@ -55,7 +61,7 @@ public class RoomController : MonoBehaviour
 
     private void PlaceObstacles()
     {
-        Vector2[] positions = new Vector2[] { };
+        Vector2[] positions = new Vector2[] { Vector2.zero };
 
         int nbObstaclesPositioned= 0;
         while (nbObstaclesPositioned < nbObstacles)
@@ -79,7 +85,7 @@ public class RoomController : MonoBehaviour
             }
             else
             {
-                GameObject obstacle = Instantiate(obstaclePrefab, transform);
+                GameObject obstacle = Instantiate(obstaclePrefab, obstacles.transform);
                 obstacle.transform.localPosition = randVector2;
                 positions.Append(randVector2);
                 nbObstaclesPositioned++;
@@ -100,10 +106,18 @@ public class RoomController : MonoBehaviour
 
             enemyPrefabs.Shuffle();
 
-            GameObject enemy = Instantiate(enemyPrefabs[0], transform);
+            GameObject enemy = Instantiate(enemyPrefabs[0], enemies.transform);
             enemy.transform.localPosition = randVector2;
             positions.Append(randVector2);
             nbEnemiesPositioned++;
+        }
+    }
+
+    private void CheckIfAllEnemiesDefeated()
+    {
+        if(enemies.transform.childCount <= 0)
+        {
+            pillar.PopUp();
         }
     }
 }

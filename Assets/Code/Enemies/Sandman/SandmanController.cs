@@ -193,7 +193,7 @@ public class SandmanController : MonoBehaviour, IHurtable, IAttacker, IRunner, I
             }
             else
             {
-                GameObject spikes = Instantiate(spikesPrefab);
+                GameObject spikes = Instantiate(spikesPrefab, transform.parent.transform);
                 spikes.transform.localPosition = randVector2;
 
                 // Get the script and configure it

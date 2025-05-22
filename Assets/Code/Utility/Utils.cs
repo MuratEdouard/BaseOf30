@@ -27,4 +27,17 @@ public static class Utils
         Scene currentScene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(currentScene.name);
     }
+
+    public static float GetAnimationClipLength(Animator animator, string clipName)
+    {
+        foreach (var clip in animator.runtimeAnimatorController.animationClips)
+        {
+            if (clip.name == clipName)
+            {
+                return clip.length;
+            }
+        }
+
+        return 0f;
+    }
 }
