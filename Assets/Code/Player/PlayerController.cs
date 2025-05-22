@@ -165,6 +165,10 @@ public class PlayerController : MonoBehaviour, IHurtable
     private void OnEnterAttack()
     {
         isAttacking = true;
+        // Disable inputs while attacking
+        inputActions.Player.Disable();
+        rb.linearVelocity = Vector2.zero;
+
         animator?.Play("Attack");
 
         Vector2 position = attackCollider.transform.position;
@@ -183,6 +187,8 @@ public class PlayerController : MonoBehaviour, IHurtable
     private void OnExitAttack()
     {
         isAttacking = false;
+        // Reenable inputs
+        inputActions.Player.Enable();
     }
 
     private bool TryAttack()
