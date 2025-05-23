@@ -3,7 +3,6 @@ using Unity.Behavior;
 using UnityEngine;
 using Action = Unity.Behavior.Action;
 using Unity.Properties;
-using UnityEditor.Experimental.GraphView;
 
 [Serializable, GeneratePropertyBag]
 [NodeDescription(name: "Attack", story: "[Agent] attacks [Target]", category: "Action", id: "131bf1fc0a50efb4dfbdbb379de42453")]

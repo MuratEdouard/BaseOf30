@@ -1,9 +1,7 @@
 ﻿using System.Collections;
-using Mono.Cecil;
 using Unity.Behavior;
 using UnityEngine;
 using UnityEngine.AI;
-using BehaviorGraph = Unity.Behavior.BehaviorGraph;
 using BlackboardReference = Unity.Behavior.BlackboardReference;
 
 public class SwordsmanController : MonoBehaviour, IHurtable, IAttacker, IRunner

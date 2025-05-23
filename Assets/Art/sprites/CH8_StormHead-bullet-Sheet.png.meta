@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CH8_StormHead-bullet-Sheet_0: 7687825878855189709
+      CH8_StormHead-bullet-Sheet_1: -4590774014817002843
+      CH8_StormHead-bullet-Sheet_2: 7361970618901740748
+      CH8_StormHead-bullet-Sheet_3: 4069039329558319847
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
