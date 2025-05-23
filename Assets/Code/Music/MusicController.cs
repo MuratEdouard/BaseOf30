@@ -94,4 +94,15 @@ public class MusicController: MonoBehaviour
         currentSource = nextSource;
         nextSource = temp;
     }
+
+    public void DestroySelf()
+    {
+        Destroy(gameObject);
+    }
+
+    private void OnDestroy()
+    {
+        if (instance == this)
+            instance = null;
+    }
 }

@@ -1,6 +1,7 @@
 using UnityEditor.Rendering;
 using UnityEditor.ShaderGraph.Internal;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityHFSM;
 
 public class PlayerController : MonoBehaviour, IHurtable
@@ -85,6 +86,11 @@ public class PlayerController : MonoBehaviour, IHurtable
 
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            GoBackToMenu();
+        }
+
         moveInput = inputActions.Player.Move.ReadValue<Vector2>();
         dashPressed = inputActions.Player.Dash.WasPressedThisFrame();
         attackPressed = inputActions.Player.Attack.WasPressedThisFrame();
@@ -95,7 +101,7 @@ public class PlayerController : MonoBehaviour, IHurtable
             dashCooldownRemaining = 0;
 
         fsm.OnLogic();
-    }
+}
 
     private void OnEnterIdle()
     {
@@ -453,5 +459,13 @@ public class PlayerController : MonoBehaviour, IHurtable
     public void TeleportOut()
     {
         isTeleportingOut = true;
+    }
+
+    private void GoBackToMenu()
+    {
+        MusicController.instance.DestroySelf();
+        inputActions.Player.Disable();
+
+        SceneManager.LoadScene("MenuScene");
     }
 }
