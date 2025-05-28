@@ -311,7 +311,16 @@ public class PlayerController : MonoBehaviour, IHurtable
     {
         gameObject.SetActive(false);
         inputActions.Player.Disable();
-        Utils.RestartScene();
+        GameManager.instance.DecreaseRoomNumber();
+
+        if (GameManager.instance.roomNb > 0)
+            Utils.RestartScene();
+        else
+        {
+            MusicController.instance.DestroySelf();
+            GameManager.instance.DestroySelf();
+            SceneManager.LoadScene("WinScene");
+        }
     }
 
     private void SetupFSM()
@@ -462,6 +471,8 @@ public class PlayerController : MonoBehaviour, IHurtable
     private void GoBackToMenu()
     {
         MusicController.instance.DestroySelf();
+        GameManager.instance.DestroySelf();
+
         inputActions.Player.Disable();
 
         SceneManager.LoadScene("MenuScene");

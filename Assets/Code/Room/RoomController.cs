@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Linq;
 using UnityEngine;
 
@@ -7,7 +8,10 @@ public class RoomController : MonoBehaviour
     public GameObject enemies;
     public GameObject floor;
     public GameObject obstacles;
-
+    public PillarController pillar;
+    public Sprite[] floorSprites;
+    public GameObject leftDigit;
+    public GameObject rightDigit;
     [Header("Prefabs Settings")]
     public GameObject grassPrefab;
     public int nbGrass = 10;
@@ -16,9 +20,6 @@ public class RoomController : MonoBehaviour
     public int nbObstacles = 4;
 
     public GameObject[] enemyPrefabs;
-    public int nbEnemies = 2;
-
-    public PillarController pillar;
 
     void Awake()
     {
@@ -27,10 +28,23 @@ public class RoomController : MonoBehaviour
 
     void Start()
     {
+        UpdateFloorDigits();
         PlaceGrass();
         PlaceObstacles();
-        Invoke(nameof(SpawnEnemies), 1f);
+        StartCoroutine(SpawnEnemies());
         InvokeRepeating(nameof(CheckIfAllEnemiesDefeated), 2f, 2f);
+    }
+
+    private void UpdateFloorDigits()
+    {
+        int tens = GameManager.instance.roomNb / 10;
+        int units = GameManager.instance.roomNb % 10;
+
+        if (tens < floorSprites.Length && units < floorSprites.Length)
+        {
+            leftDigit.GetComponent<SpriteRenderer>().sprite = floorSprites[tens];
+            rightDigit.GetComponent<SpriteRenderer>().sprite = floorSprites[units];
+        }
     }
 
     private void PlaceGrass()
@@ -92,9 +106,30 @@ public class RoomController : MonoBehaviour
         }
     }
 
-    private void SpawnEnemies()
+    private IEnumerator SpawnEnemies()
     {
+        yield return new WaitForSeconds(1f);
+
         Vector2[] positions = new Vector2[] { };
+
+        int nbEnemies = 0;
+
+        int roomNb = GameManager.instance.roomNb;
+        if (roomNb >= 9 && roomNb <= 10)
+            nbEnemies = 2; // Calm intro
+        else if (roomNb >= 7 && roomNb <= 8)
+            nbEnemies = 3; // First spike
+        else if (roomNb == 6)
+            nbEnemies = 5; // First boss challenge
+        else if (roomNb >= 4 && roomNb <= 5)
+            nbEnemies = 3; // Midgame heat
+        else if (roomNb == 3)
+            nbEnemies = 4; // Mini panic
+        else if (roomNb == 2)
+            nbEnemies = 5; // Second boss challenge
+        else if (roomNb == 1)
+            nbEnemies = 6; // FINAL ROOM
+
 
         int nbEnemiesPositioned = 0;
         while (nbEnemiesPositioned < nbEnemies)
@@ -109,6 +144,9 @@ public class RoomController : MonoBehaviour
             enemy.transform.localPosition = randVector2;
             positions.Append(randVector2);
             nbEnemiesPositioned++;
+
+            float waitTime = Random.Range(0.2f, 0.6f);
+            yield return new WaitForSeconds(waitTime);
         }
     }
 
